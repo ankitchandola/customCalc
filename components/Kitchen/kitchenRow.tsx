@@ -6,12 +6,14 @@ import { TrashIcon } from "@heroicons/react/16/solid";
 type Props = {
   productname: string;
   updateGrandTotal: (total: number) => void;
+  type: "base" | "wallLoft";
+  multiplier: number;
 };
 
 const KitchenRow = (props: Props) => {
-  const { updateGrandTotal } = props;
+  const { updateGrandTotal, type, multiplier } = props;
   const hinge = 470;
-  const [cost, setCost] = useState(dummyData.kitchen[0].value);
+  const [cost, setCost] = useState(dummyData.kitchen[0][type]);
   const [wall, setWall] = useState({
     "wall 1": 0,
     "wall 2": 0,
@@ -28,7 +30,7 @@ const KitchenRow = (props: Props) => {
   };
   const totalWalls = Object.values(wall).reduce((acc, curr) => acc + curr, 0);
   const totalGrandTotal = Math.round(
-    totalWalls * 2.75 * cost + (totalWalls * 2.75 * hinge) / 1.5
+    totalWalls * multiplier * cost + (totalWalls * multiplier * hinge) / 1.5
   );
   useEffect(() => {
     updateGrandTotal(totalGrandTotal);
@@ -36,7 +38,7 @@ const KitchenRow = (props: Props) => {
 
   return (
     <div className="flex items-center justify-center gap-x-4 w-full py-2">
-      <ListBox data={dummyData.kitchen} cb={(val) => setCost(val?.value)} />
+      <ListBox data={dummyData.kitchen} cb={(val) => setCost(val?.[type])} />
       <p className="w-32 justify-center flex">{props.productname}</p>
       <div className="flex gap-x-2 px-4 border-gray-400 border-x-2 border-y-0">
         {Object.entries(wall).map(([wallName, wallValue], idx) => (
@@ -56,7 +58,7 @@ const KitchenRow = (props: Props) => {
       </div>
       <div>
         <p>Total Sqrft</p>
-        <p className="my-2">{Math.round(totalWalls * 2.75)}</p>
+        <p className="my-2">{Math.round(totalWalls * multiplier)}</p>
       </div>
       <div>
         <p>Grand Total</p>

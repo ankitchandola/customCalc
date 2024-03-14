@@ -46,6 +46,15 @@ const Summary = () => {
             </tbody>
           </table>
         </div>
+        <div className="border-t-2 border-black flex justify-between py-4 font-bold">
+          <p>Grand Total:</p>
+          <p>
+            {kitchenAccessories +
+              kitchenWood +
+              wardrobeAccessories +
+              wardrobeWood}
+          </p>
+        </div>
       </div>
     </div>
   );

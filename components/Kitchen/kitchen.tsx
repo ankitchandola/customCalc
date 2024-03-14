@@ -69,18 +69,26 @@ export default function Kitchen() {
                 <KitchenRow
                   productname="Base Unit"
                   updateGrandTotal={(total) => updateGrandTotal(0, total)}
+                  type="base"
+                  multiplier={2.75}
                 />
                 <KitchenRow
                   productname="Wall Unit 600"
                   updateGrandTotal={(total) => updateGrandTotal(1, total)}
+                  type="wallLoft"
+                  multiplier={2}
                 />
                 <KitchenRow
                   productname="Wall Unit 700"
                   updateGrandTotal={(total) => updateGrandTotal(2, total)}
+                  type="wallLoft"
+                  multiplier={2.3}
                 />
                 <KitchenRow
                   productname="Loft at 700"
                   updateGrandTotal={(total) => updateGrandTotal(3, total)}
+                  type="wallLoft"
+                  multiplier={2.3}
                 />
 
                 {/* <PlusCircleIcon

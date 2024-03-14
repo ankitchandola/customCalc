@@ -1,21 +1,23 @@
 const dummyData = {
     "kitchen": [
-        { "name": "Laminate", "value": 1783 },
-        { "name": "Acrylic", "value": 2396 },
-        { "name": "PU", "value": 2780 },
-        { "name": "Membrane", "value": 2085 },
-        { "name": "SilkLaq", "value": 2158 },
-        { "name": "Lacquered", "value": 3018 },
-        { "name": "Glass Shutter With Frame", "value": 2808 }
+        { "name": "Laminate", "base": 1782.862, "wallLoft": 1517.657 },
+        { "name": "Acrylic", "base": 2395.990, "wallLoft": 2112.495 },
+        { "name": "PU", "base": 2780.080, "wallLoft": 2496.585 },
+        { "name": "Membrane", "base": 2085.060, "wallLoft": 1801.565 },
+        { "name": "SilkLaq", "base": 2158.220, "wallLoft": 1874.725 },
+        { "name": "Lacquered", "base": 3017.850, "wallLoft": 3017.850 },
+        { "name": "Glass Shutter With Frame", "base": 2807.515, "wallLoft": 2807.515 }
     ],
+
     "wardrobe": [
-        { "name": "Laminate", "value": 1860 },
-        { "name": "Acrylic", "value": 2350 },
-        { "name": "PU", "value": 2734 },
-        { "name": "SilkLaq", "value": 2112 },
-        { "name": "Glass Shutter With Frame", "value": 3045 },
-        { "name": "EGGER", "value": 2277 }
+        { "name": "Laminate", "value": 1860.093 },
+        { "name": "Acrylic", "value": 2350.265 },
+        { "name": "PU", "value": 2734.355 },
+        { "name": "SilkLaq", "value": 2112.495 },
+        { "name": "Glass Shutter With Frame", "value": 3045.285 },
+        { "name": "EGGER", "value": 2277.105 }
     ],
+
     "wardrobe_accessories": [
         {
             "name": "QUADRO DRAWER SYSTEM SOFT CLOSE ",
@@ -102,7 +104,6 @@ const dummyData = {
     "brandWardrobe": [
         { "name": "HAFELE" },
         { "name": "INOX" },
-        { "name": "HAFELE" },
         { "name": "EBCO" },
         { "name": "LIVSMART" },
         { "name": "INOX" },
