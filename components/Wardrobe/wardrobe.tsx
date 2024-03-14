@@ -81,7 +81,7 @@ const Wardrobe: React.FC = () => {
     const accessoriesTotal = calculateTotalSum("accessories");
     setWardrobeWood(woodenTotal);
     setWardrobeAccessories(accessoriesTotal);
-  }, [wardrobeRows]);
+  }, [wardrobeRows, totals]);
 
   return (
     <div className="w-full h-full px-4 py-16">
