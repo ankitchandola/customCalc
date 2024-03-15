@@ -123,7 +123,7 @@ export const RowAccessories = (props: accessories) => {
   const calculatePrice = (): string | undefined => {
     if (!Brand.length && !Size.length) {
       const accessories = accessoryObject[item];
-      if (accessories.length === 1) {
+      if (accessories?.length === 1) {
         return accessories[0].Price;
       }
     } else if (Brand.length && Size.length) {

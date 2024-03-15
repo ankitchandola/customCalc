@@ -50,9 +50,7 @@ const dummyData = {
         {
             "name": "CNSTNT VLTG 12V3A DRIVER FOR 36W STP",
         },
-        {
-            "name": "HANDLES",
-        },
+
         {
             "name": "HANDLES",
         },
@@ -331,7 +329,7 @@ const dummyData = {
     },
 
     accessoriesObjectWardrobe: <AccessoryObject>{
-        "QUADRO DRAWER SYSTEM SOFT CLOSE": [
+        "QUADRO DRAWER SYSTEM SOFT CLOSE ": [
             { Brand: "HAFELE", Size: "500", Price: "1507.030" },
             { Brand: "HAFELE", Size: "400", Price: "1507.030" }
         ],
