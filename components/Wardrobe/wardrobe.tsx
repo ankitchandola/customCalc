@@ -150,8 +150,7 @@ const Wardrobe: React.FC = () => {
                         updateTotal("accessories", grandTotal, row.id)
                       }
                       id={row.id}
-                      size={dummyData.size}
-                      brand={dummyData.brandWardrobe}
+                      accessoryObject={dummyData.accessoriesObjectWardrobe}
                     />
                   ))}
                   <div className="w-full flex justify-center">

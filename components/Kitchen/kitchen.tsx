@@ -126,8 +126,7 @@ export default function Kitchen() {
                         updateTotal(grandTotal, row.id)
                       }
                       id={row.id}
-                      size={dummyData.size}
-                      brand={dummyData.brandKitchen}
+                      accessoryObject={dummyData.accessoryObject}
                       isKitchen={true}
                     />
                   ))}

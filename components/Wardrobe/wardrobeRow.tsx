@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, use } from "react";
 import { TrashIcon } from "@heroicons/react/16/solid";
 import ListBox from "../UI/listbox";
-import dummyData from "@/data/dummy";
+import dummyData, { AccessoryObject } from "@/data/dummy";
 
 type Props = {
   data: {
@@ -11,19 +11,6 @@ type Props = {
   deleteRow: (id: number, total: number) => void;
   updateTotal: (grandTotal: number) => void;
   id: number;
-};
-
-type accessories = {
-  data: {
-    value?: number;
-    name: string;
-  }[];
-  brand: { name: string }[];
-  size: { name: number }[];
-  deleteRow: (id: number, total: number) => void;
-  updateTotal: (grandTotal: number) => void;
-  id: number;
-  isKitchen?: boolean;
 };
 
 export const WardrobeRow = (props: Props) => {
@@ -81,62 +68,103 @@ export const WardrobeRow = (props: Props) => {
   );
 };
 
+type accessories = {
+  data: {
+    name: string;
+  }[];
+
+  deleteRow: (id: number, total: number) => void;
+  updateTotal: (grandTotal: number) => void;
+  id: number;
+  isKitchen?: boolean;
+  accessoryObject: AccessoryObject;
+};
+
 export const RowAccessories = (props: accessories) => {
   const {
     data,
     updateTotal,
     id,
     deleteRow,
-    brand,
-    size,
+    accessoryObject,
     isKitchen = false,
   } = props;
+  const initializeState = (selectedItem: string, state: "Brand" | "Size") => {
+    const brandsOrSizes: Set<string> = new Set();
 
-  const [cost, setCost] = useState(data[0].name);
-  const [Brand, setBrand] = useState({ name: brand[0].name, isDefault: true });
+    // Check if the selected item exists in accessoryObject
+    if (accessoryObject[selectedItem]) {
+      accessoryObject[selectedItem].forEach((item) => {
+        if (item[state]) {
+          brandsOrSizes.add(item[state]!); // Add brand or size to the set
+        }
+      });
+    }
+    return Array.from(brandsOrSizes).map((value) => ({ name: value }));
+  };
 
-  const [Size, setSize] = useState({ name: size[0].name, isDefault: true });
+  const [item, setItem] = useState(data[0].name);
+  const [Brand, setBrand] = useState<{ name: string | undefined }[]>(
+    initializeState(item, "Brand")
+  );
+
+  const [Size, setSize] = useState<{ name: string | undefined }[]>(
+    initializeState(item, "Size")
+  );
+  const [selectedBrand, setSelectedBrand] = useState<string | undefined>(
+    Brand?.[0]?.name
+  );
+  const [selectedSize, setSelectedSize] = useState<string | undefined>(
+    Size?.[0]?.name
+  );
 
   const [uom, setUom] = useState(0);
 
-  const findCombineValue = (
-    combine: { name: string; value: number }[],
-    cost: string,
-    Brand: { name: string; isDefault: boolean },
-    Size: { name: number; isDefault: boolean }
-  ) => {
-    let key: string;
-    let brand = Brand.name;
-    let size = Size.name;
-    if (Brand.isDefault) {
-      brand = "";
+  const calculatePrice = (): string | undefined => {
+    if (!Brand.length && !Size.length) {
+      const accessories = accessoryObject[item];
+      if (accessories.length === 1) {
+        return accessories[0].Price;
+      }
+    } else if (Brand.length && Size.length) {
+      const accessory = accessoryObject[item]?.find(
+        (item) => item.Brand === selectedBrand && item.Size === selectedSize
+      );
+      return accessory?.Price;
+    } else if (Brand.length) {
+      const accessory = accessoryObject[item]?.find(
+        (item) => item.Brand === selectedBrand
+      );
+      return accessory?.Price;
+    } else if (Size.length) {
+      const accessory = accessoryObject[item]?.find(
+        (item) => item.Size === selectedSize
+      );
+      return accessory?.Price;
     }
-    if (Size.isDefault) {
-      key = cost + brand;
-    } else {
-      key = cost + brand + size;
-    }
-    const foundItem = combine.find((item) => item.name === key);
-    return foundItem ? foundItem.value * uom : 0; // Return 0 if the item is not found
+    return undefined;
   };
 
-  const grandTotal = findCombineValue(
-    isKitchen ? dummyData.combine : dummyData.combineWardrobe,
-    cost,
-    Brand,
-    Size
-  );
+  // Price based on selected item, brand, and size
+  const price = calculatePrice();
+  const grandTotal: number = price ? Number(price) * uom : 0;
 
   useEffect(() => {
     updateTotal(grandTotal);
   }, [grandTotal]);
+
+  useEffect(() => {
+    setBrand(initializeState(item, "Brand"));
+    setSize(initializeState(item, "Size"));
+  }, [item]);
+  console.log(Size, "check array", Brand, selectedBrand, selectedSize);
 
   return (
     <div className="relative flex flex-col items-center justify-center gap-x-4 w-full min-w-full  border-b-2 border-gray-300">
       <div className=" flex justify-between  w-full ">
         <ListBox
           data={data}
-          cb={(val) => setCost(String(val?.name))}
+          cb={(val) => setItem(String(val?.name))}
           label="Accessories"
         />
         <div>
@@ -151,26 +179,18 @@ export const RowAccessories = (props: accessories) => {
           />
         </div>
         <ListBox
-          data={brand}
-          cb={(val) =>
-            setBrand({
-              name: String(val?.name),
-              isDefault: val?.value === 0 ? true : false,
-            })
-          }
+          data={Brand}
           label="Brand"
           useDefault={true}
+          cb={(val) => setSelectedBrand(String(val?.name))}
+          selectedVal={selectedBrand}
         />
         <ListBox
-          data={size}
-          cb={(val) =>
-            setSize({
-              name: Number(val?.name),
-              isDefault: val?.value === 0 ? true : false,
-            })
-          }
+          data={Size}
           label="Size"
           useDefault={true}
+          cb={(val) => setSelectedSize(String(val?.name))}
+          selectedVal={selectedSize}
         />
       </div>
       <div className="flex w-full gap-x-4 mt-4 font-bold mb-4">
