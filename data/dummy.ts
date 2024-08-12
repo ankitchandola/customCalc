@@ -6,7 +6,8 @@ const dummyData = {
         { "name": "Membrane", "base": 2085.060, "wallLoft": 1801.565 },
         { "name": "SilkLaq", "base": 2158.220, "wallLoft": 1874.725 },
         { "name": "Lacquered", "base": 3017.850, "wallLoft": 3017.850 },
-        { "name": "Glass Shutter With Frame", "base": 2807.515, "wallLoft": 2807.515 }
+        { "name": "Glass Shutter With Frame", "base": 2807.515, "wallLoft": 2807.515 },
+        { "name": "MDF", "base": 1708, "wallLoft": 1333 },
     ],
 
     "wardrobe": [
@@ -15,7 +16,8 @@ const dummyData = {
         { "name": "PU", "value": 2734.355 },
         { "name": "SilkLaq", "value": 2112.495 },
         { "name": "Glass Shutter With Frame", "value": 3045.285 },
-        { "name": "EGGER", "value": 2277.105 }
+        { "name": "EGGER", "value": 2277.105 },
+        { "name": "MDF", "value": 1425 },
     ],
 
     "wardrobe_accessories": [
