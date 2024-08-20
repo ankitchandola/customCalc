@@ -54,10 +54,7 @@ const dummyData = {
         },
         {
             "name": "KLASSE SILENT TROUSER PULLOUT 900MM",
-        },
-        {
-            "name": "KLASSE FULL EXTN. CONCEALED SLIDER 500MM",
-        },
+        },        
         {
             "name": "FLEXION PROFILE STRIP 120 LED 36 W 3000K",
         },
@@ -179,17 +176,17 @@ const dummyData = {
             {
                 "Brand": "OLIVE",
                 "Size": "100",
-                "Price": "2300.000"
+                "Price": "1622.000"
             },
             {
                 "Brand": "OLIVE",
                 "Size": "150",
-                "Price": "2600.000"
+                "Price": "1800.000"
             },
             {
                 "Brand": "OLIVE",
                 "Size": "200",
-                "Price": "2900.000"
+                "Price": "2153.000"
             }
         ],
         "Liftup": [
@@ -209,18 +206,28 @@ const dummyData = {
             },
             {
                 "Brand": "OLIVE",
-                "Price": "13500.000"
+                "Price": "14784.000"
             }
         ],
         "S-Crausel": [
             {
                 "Brand": "OLIVE",
-                "Price": "11500.000"
+                "Price": "9140.000"
             }
         ],
         "Rolling Shutter": [
             {
                 "Brand": "Hafele",
+                "Size": "600",
+                "Price": "15118.000"
+            },
+            {
+                "Brand": "OLIVE",
+                "Size": "450",
+                "Price": "15118.000"
+            },
+            {
+                "Brand": "OLIVE",
                 "Size": "600",
                 "Price": "15118.000"
             }
@@ -246,12 +253,12 @@ const dummyData = {
             {
                 "Brand": "OLIVE",
                 "Size": "450",
-                "Price": "20500.000"
+                "Price": "17802.000"
             },
             {
                 "Brand": "OLIVE",
                 "Size": "600",
-                "Price": "25272.000"
+                "Price": "19342.000"
             },
             {
                 "Brand": "KESSEBOEHMER",
@@ -291,22 +298,7 @@ const dummyData = {
                 "Brand": "OLIVE",
                 "Size": "450",
                 "Price": "456.000"
-            },
-            {
-                "Brand": "OLIVE",
-                "Size": "600",
-                "Price": "600.000"
-            },
-            {
-                "Brand": "OLIVE",
-                "Size": "900",
-                "Price": "940.000"
-            },
-            {
-                "Brand": "Hettich",
-                "Size": "450",
-                "Price": "413.000"
-            },
+            },            
             {
                 "Brand": "Hettich",
                 "Size": "600",
@@ -347,8 +339,8 @@ const dummyData = {
             { Brand: "HAFELE", Size: "500", Price: "1507.030" },
             { Brand: "HAFELE", Size: "400", Price: "1507.030" }
         ],
-        "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 3 MTR / LENGTH": [
-            { Brand: "OLIVE", Price: "860.000" }
+        "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 4 FT / LENGTH": [
+            { Brand: "OLIVE", Price: "790.000" }
         ],
         "DOOR LOCK": [
             { Brand: "HAFELE", Price: "436.350" }
@@ -362,12 +354,9 @@ const dummyData = {
         "ZINC KNOB-B 30MM BZK-BL": [
             { Brand: "LIVSMART", Price: "106.000" }
         ],
-        "KLASSE SILENT TROUSER PULLOUT 900MM": [
-            { Brand: "OLIVE", Size: "900", Price: "5008.640" }
-        ],
-        "KLASSE FULL EXTN. CONCEALED SLIDER 500MM": [
-            { Brand: "OLIVE", Price: "1427.250" }
-        ],
+        "TROUSER PULLOUT 900MM": [
+            { Brand: "OLIVE", Size: "900", Price: "4630.000" }
+        ],        
         "FLEXION PROFILE STRIP 120 LED 36 W 3000K": [
             { Brand: "HAVELLS", Price: "850.000" }
         ],
