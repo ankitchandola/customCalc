@@ -92,7 +92,7 @@ const dummyData = {
         { "name": "Wooden Drawer base and back" }
     ],
     "brandKitchen": [
-        { "name": "INOX" },
+        { "name": "OLIVE" },
         { "name": "Hettich" },
         { "name": "Hafele" },
         { "name": "Ebco" },
@@ -100,10 +100,10 @@ const dummyData = {
     ],
     "brandWardrobe": [
         { "name": "HAFELE" },
-        { "name": "INOX" },
+        { "name": "OLIVE" },
         { "name": "EBCO" },
         { "name": "LIVSMART" },
-        { "name": "INOX" },
+        { "name": "OLIVE" },
         { "name": "HAVELLS" },
         { "name": "ANTIQUE OR BRASS FINISH" },
         { "name": "ARCHIS" },
@@ -125,12 +125,12 @@ const dummyData = {
     accessoryObject: <AccessoryObject>{
         "GTPT": [
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "600",
                 "Price": "1335.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "900",
                 "Price": "1750.000"
             },
@@ -177,17 +177,17 @@ const dummyData = {
                 "Price": "4500.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "100",
                 "Price": "2300.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "150",
                 "Price": "2600.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "200",
                 "Price": "2900.000"
             }
@@ -208,13 +208,13 @@ const dummyData = {
                 "Price": "27500.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Price": "13500.000"
             }
         ],
         "S-Crausel": [
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Price": "11500.000"
             }
         ],
@@ -244,12 +244,12 @@ const dummyData = {
         ],
         "Pantry Unit": [
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "450",
                 "Price": "20500.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "600",
                 "Price": "25272.000"
             },
@@ -266,12 +266,12 @@ const dummyData = {
         ],
         "BPO": [
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "200",
                 "Price": "4735.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "300",
                 "Price": "5198.000"
             },
@@ -288,17 +288,17 @@ const dummyData = {
         ],
         "Cutlery Tray": [
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "450",
                 "Price": "456.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "600",
                 "Price": "600.000"
             },
             {
-                "Brand": "INOX",
+                "Brand": "OLIVE",
                 "Size": "900",
                 "Price": "940.000"
             },
@@ -348,7 +348,7 @@ const dummyData = {
             { Brand: "HAFELE", Size: "400", Price: "1507.030" }
         ],
         "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 3 MTR / LENGTH": [
-            { Brand: "INOX", Price: "860.000" }
+            { Brand: "OLIVE", Price: "860.000" }
         ],
         "DOOR LOCK": [
             { Brand: "HAFELE", Price: "436.350" }
@@ -363,10 +363,10 @@ const dummyData = {
             { Brand: "LIVSMART", Price: "106.000" }
         ],
         "KLASSE SILENT TROUSER PULLOUT 900MM": [
-            { Brand: "INOX", Size: "900", Price: "5008.640" }
+            { Brand: "OLIVE", Size: "900", Price: "5008.640" }
         ],
         "KLASSE FULL EXTN. CONCEALED SLIDER 500MM": [
-            { Brand: "INOX", Price: "1427.250" }
+            { Brand: "OLIVE", Price: "1427.250" }
         ],
         "FLEXION PROFILE STRIP 120 LED 36 W 3000K": [
             { Brand: "HAVELLS", Price: "850.000" }
