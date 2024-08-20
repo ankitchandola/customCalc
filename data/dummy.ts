@@ -7,7 +7,7 @@ const dummyData = {
         { "name": "SilkLaq", "base": 2158.220, "wallLoft": 1874.725 },
         { "name": "Lacquered", "base": 3017.850, "wallLoft": 3017.850 },
         { "name": "Glass Shutter With Frame", "base": 2807.515, "wallLoft": 2807.515 },
-        { "name": "Laminate on MDF"     , "base": 1598, "wallLoft": 1333 },
+        { "name": "Laminate on MDF", "base": 1598, "wallLoft": 1333 },
         { "name": "Acrylic on MDF", "base": 2026, "wallLoft": 1761 },
         { "name": "PU on MDF", "base": 2385, "wallLoft": 2120 },
         { "name": "Membrane on MDF", "base": 1735, "wallLoft": 1470 },
