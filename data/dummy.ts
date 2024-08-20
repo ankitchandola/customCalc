@@ -7,7 +7,13 @@ const dummyData = {
         { "name": "SilkLaq", "base": 2158.220, "wallLoft": 1874.725 },
         { "name": "Lacquered", "base": 3017.850, "wallLoft": 3017.850 },
         { "name": "Glass Shutter With Frame", "base": 2807.515, "wallLoft": 2807.515 },
-        { "name": "MDF", "base": 1708, "wallLoft": 1333 },
+        { "name": "Laminate on MDF", "base": 1708, "wallLoft": 1333 },
+        { "name": "Acrylic on MDF", "base": 2166, "wallLoft": 1882 },
+        { "name": "PU on MDF", "base": 2550, "wallLoft": 2266 },
+        { "name": "Membrane on MDF", "base": 1855, "wallLoft": 1571 },
+        { "name": "Lacquered on MDF", "base": 2573, "wallLoft": 2142 },
+        { "name": "Glass Shutter With Frame on MDF", "base": 2623, "wallLoft": 2623 },
+        
     ],
 
     "wardrobe": [
@@ -17,7 +23,13 @@ const dummyData = {
         { "name": "SilkLaq", "value": 2112.495 },
         { "name": "Glass Shutter With Frame", "value": 3045.285 },
         { "name": "EGGER", "value": 2277.105 },
-        { "name": "MDF", "value": 1425 },
+        { "name": "Laminate on MDF", "value": 1664 },
+        { "name": "Acrylic on MDF", "value": 2122 },
+        { "name": "PU on MDF", "value": 2506 },
+        { "name": "Silklaq on MDF", "value": 1930 },
+        { "name": "Glass Shutter With Frame on MDF", "value": 2862 },
+        
+        
     ],
 
     "wardrobe_accessories": [
