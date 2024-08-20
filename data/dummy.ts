@@ -124,12 +124,12 @@ const dummyData = {
             {
                 "Brand": "OLIVE",
                 "Size": "600",
-                "Price": "1335.000"
+                "Price": "2559.000"
             },
             {
                 "Brand": "OLIVE",
                 "Size": "900",
-                "Price": "1750.000"
+                "Price": "3941.000"
             },
             {
                 "Brand": "Hettich",
@@ -224,12 +224,12 @@ const dummyData = {
             {
                 "Brand": "OLIVE",
                 "Size": "450",
-                "Price": "15118.000"
+                "Price": "8609.000"
             },
             {
                 "Brand": "OLIVE",
                 "Size": "600",
-                "Price": "15118.000"
+                "Price": "9416.000"
             }
         ],
         "Wicker Basket": [
@@ -275,12 +275,12 @@ const dummyData = {
             {
                 "Brand": "OLIVE",
                 "Size": "200",
-                "Price": "4735.000"
+                "Price": "3498.000"
             },
             {
                 "Brand": "OLIVE",
                 "Size": "300",
-                "Price": "5198.000"
+                "Price": "3767.000"
             },
             {
                 "Brand": "Hettich",
@@ -294,11 +294,6 @@ const dummyData = {
             }
         ],
         "Cutlery Tray": [
-            {
-                "Brand": "OLIVE",
-                "Size": "450",
-                "Price": "456.000"
-            },            
             {
                 "Brand": "Hettich",
                 "Size": "600",
