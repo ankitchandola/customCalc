@@ -12,7 +12,20 @@ const dummyData = {
         { "name": "PU-MDF+MDF", "base": 2385, "wallLoft": 2120 },
         { "name": "Membrane-MDF+MDF", "base": 1735, "wallLoft": 1470 },
         { "name": "Lacquered-MDF+MDF", "base": 2407, "wallLoft": 2142 },
-        { "name": "Glass Shutter With Frame-MDF+MDF", "base": 2454, "wallLoft": 2454 },
+        { "name": "Glass Shutter With Frame-MDF+MDF", "base": 2454, "wallLoft": 2454 }
+        { "name": "Laminate-BWP+HDHMR", "base": 1782.862, "wallLoft": 1517.657 },
+        { "name": "Acrylic-BWP+HDHMR", "base": 2395.990, "wallLoft": 2112.495 },
+        { "name": "PU-BWP+HDHMR", "base": 2780.080, "wallLoft": 2496.585 },
+        { "name": "Membrane-BWP+HDHMR", "base": 2085.060, "wallLoft": 1801.565 },
+        { "name": "SilkLaq--BWP+HDHMR", "base": 2158.220, "wallLoft": 1874.725 },
+        { "name": "Lacquered-BWP+HDHMR", "base": 3017.850, "wallLoft": 3017.850 },
+        { "name": "Glass Shutter With Frame-BWP+HDHMR", "base": 2807.515, "wallLoft": 2807.515 },
+        { "name": "Laminate-BWP+MDF", "base": 1598, "wallLoft": 1333 },
+        { "name": "Acrylic-BWP+MDF", "base": 2026, "wallLoft": 1761 },
+        { "name": "PU-BWP+MDF", "base": 2385, "wallLoft": 2120 },
+        { "name": "Membrane-BWP+MDF", "base": 1735, "wallLoft": 1470 },
+        { "name": "Lacquered-BWP+MDF", "base": 2407, "wallLoft": 2142 },
+        { "name": "Glass Shutter With Frame-BWP+MDF", "base": 2454, "wallLoft": 2454 },
         
     ],
 
