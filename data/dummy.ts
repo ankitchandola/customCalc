@@ -39,7 +39,7 @@ const dummyData = {
         { "name": "Acrylic-MDF+MDF", "value": 1985 },
         { "name": "PU-MDF+MDF", "value": 2344 },
         { "name": "Silklaq-MDF+HDHMR", "value": 1805 },
-        { "name": "Glass Shutter-MDF+GLASS", "value": 2678 }
+        { "name": "Glass Shutter-MDF+GLASS", "value": 2678 },
         { "name": "Laminate-BWP+HDHMR", "value": 2273 },
         { "name": "Acrylic-BWP+HDHMR", "value": 2666 },
         { "name": "PU-BWP+HDHMR", "value": 3050 },
