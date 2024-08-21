@@ -24,7 +24,7 @@ const dummyData = {
         { "name": "PU-BWP+MDF", "base": 2990, "wallLoft": 2707 },
         { "name": "Membrane-BWP+MDF", "base": 2295, "wallLoft": 2012 },
         { "name": "Lacquered-BWP+MDF", "base": 3014, "wallLoft": 2555 },
-        { "name": "Glass Shutter With Frame-BWP+GLASS", "base": 3064, "wallLoft": 3064 },
+        { "name": "Glass Shutter With Frame-BWP+GLASS", "base": 3064, "wallLoft": 3064 }
         
     ],
 
@@ -47,7 +47,7 @@ const dummyData = {
         { "name": "Laminate-BWP+MDF", "value": 1980 },
         { "name": "Acrylic-BWP+MDF", "value": 2437 },
         { "name": "PU-BWP+MDF", "value": 2821 },        
-        { "name": "Glass Shutter-BWP+GLASS", "value": 3361 },
+        { "name": "Glass Shutter-BWP+GLASS", "value": 3361 }
         
         
     ],
