@@ -38,7 +38,7 @@ const dummyData = {
         },
 
         {
-            "name": "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 3 MTR / LENGTH",
+            "name": "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 4 FT / LENGTH",
         },
         {
             "name": "DOOR LOCK",
@@ -53,7 +53,7 @@ const dummyData = {
             "name": "ZINC KNOB-B 30MM BZK-BL",
         },
         {
-            "name": "KLASSE SILENT TROUSER PULLOUT 900MM",
+            "name": "TROUSER PULLOUT 900MM",
         },        
         {
             "name": "FLEXION PROFILE STRIP 120 LED 36 W 3000K",
@@ -335,7 +335,7 @@ const dummyData = {
             { Brand: "HAFELE", Size: "500", Price: "1507.030" },
             { Brand: "HAFELE", Size: "400", Price: "1507.030" }
         ],
-        "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 4 FT / LENGTH ": [
+        "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 4 FT / LENGTH": [
             { Brand: "OLIVE", Price: "790.000" }
         ],
         "DOOR LOCK": [
