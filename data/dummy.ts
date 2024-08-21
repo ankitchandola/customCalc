@@ -115,6 +115,7 @@ const dummyData = {
         { "name": 450 },
         { "name": 300 },
         { "name": 500 },
+        { "name": 500 },
         { "name": 400 }
     ],
 
@@ -334,7 +335,7 @@ const dummyData = {
             { Brand: "HAFELE", Size: "500", Price: "1507.030" },
             { Brand: "HAFELE", Size: "400", Price: "1507.030" }
         ],
-        "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 4 FT / LENGTH": [
+        "OVAL HANGER ROD WITH END CAP - BRIGHT CHROME 4 FT / LENGTH ": [
             { Brand: "OLIVE", Price: "790.000" }
         ],
         "DOOR LOCK": [
