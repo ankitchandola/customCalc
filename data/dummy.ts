@@ -17,11 +17,11 @@ const dummyData = {
     ],
 
     "wardrobe": [
-        { "name": "Laminate", "value": 1860.093 },
-        { "name": "Acrylic", "value": 2350.265 },
-        { "name": "PU", "value": 2734.355 },
-        { "name": "SilkLaq", "value": 2112.495 },
-        { "name": "Glass Shutter With Frame", "value": 3045.285 },
+        { "name": "Laminate-HDHMR+HDHMR", "value": 1860.093 },
+        { "name": "Acrylic-HDHMR+HDHMR", "value": 2350.265 },
+        { "name": "PU-HDHMR+HDHMR", "value": 2734.355 },
+        { "name": "SilkLaq-HDHMR+HDHMR", "value": 2112.495 },
+        { "name": "Glass Shutter With Frame-HDHMR+HDHMR", "value": 3045.285 },
         { "name": "EGGER", "value": 2277.105 },
         { "name": "Laminate on MDF", "value": 1557 },
         { "name": "Acrylic on MDF", "value": 1985 },
