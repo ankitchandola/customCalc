@@ -106,7 +106,12 @@ const dummyData = {
         { "name": "Pantry Unit" },
         { "name": "BPO" },
         { "name": "Cutlery Tray" },
-        { "name": "Wooden Drawer base and back" }
+        { "name": "Wooden Drawer base and back" },
+         { "name": "C Profile" },
+         { "name": "J Profile" },
+         { "name": "Vertical Profile" },
+         { "name": "Push to Open" },
+         { "name": "Handle" }
     ],
     "brandKitchen": [
         { "name": "OLIVE" },
@@ -136,7 +141,8 @@ const dummyData = {
         { "name": 300 },
         { "name": 500 },
         { "name": 500 },
-        { "name": 400 }
+        { "name": 400 },
+        { "name": 3000 }
     ],
 
 
@@ -218,6 +224,38 @@ const dummyData = {
             {
                 "Brand": "Hafele",
                 "Price": "10254.000"
+            }
+        ],
+        "C Profile": [
+            {
+                "Brand": "Hettich",
+                "Price": "1900.000"
+            },
+            {
+                "Brand": "Olive",
+                "Price": "1300.000"
+            }
+        ],
+        "J Profile": [
+            {
+                "Brand": "Hettich",
+                "Price": "1900.000"
+            },
+            {
+                "Brand": "Olive",
+                "Price": "1300.000"
+            }
+        ],
+        "Vertical Profile": [
+            {
+                "Brand": "Hettich",
+                "Price": "2800.000"
+            }
+        ],
+        "Push to Open": [
+            {
+                "Brand": "Hettich",
+                "Price": "590.000"
             }
         ],
         "Magic Corner": [
@@ -339,6 +377,11 @@ const dummyData = {
         "Wooden Drawer base and back": [
             {
                 "Price": "3400.000"
+            }
+        ],
+        "Handle": [
+            {
+                "Price": "1000.000"
             }
         ],
         "QUADRO DRAWER SYSTEM SOFT CLOSE ": [
