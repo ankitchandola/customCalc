@@ -111,7 +111,8 @@ const dummyData = {
          { "name": "J Profile" },
          { "name": "Vertical Profile" },
          { "name": "Push to Open" },
-         { "name": "Handle" }
+         { "name": "Handle" },
+        { "name": "Counter Top Ply" }
     ],
     "brandKitchen": [
         { "name": "OLIVE" },
@@ -382,6 +383,11 @@ const dummyData = {
         "Handle": [
             {
                 "Price": "1000.000"
+            }
+        ],
+         "Counter Top Ply": [
+            {
+                "Price": "4500.000"
             }
         ],
         "QUADRO DRAWER SYSTEM SOFT CLOSE ": [
