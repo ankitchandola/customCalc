@@ -1,7 +1,7 @@
 import React, { useState, useEffect, use } from "react";
 import { TrashIcon } from "@heroicons/react/16/solid";
 import ListBox from "../UI/listbox";
-import dummyData, { AccessoryObject } from "@/data/dummy";
+import { AccessoryObject } from "@/data/dummy";
 
 type Props = {
   data: {
@@ -28,8 +28,13 @@ export const WardrobeRow = (props: Props) => {
   return (
     <div className="relative flex flex-col items-center justify-center gap-x-4 w-full min-w-full  border-b-2 border-gray-300">
       <div className=" flex justify-between  w-full ">
-        <ListBox data={data} cb={(val) => setCost(val?.value)} label="Finish" />
-
+        <ListBox
+          data={data}
+          cb={(val) => {
+            if (val) setCost(val?.value);
+          }}
+          label="Finish"
+        />
         <div>
           <p>Length</p>
           <input
@@ -157,7 +162,6 @@ export const RowAccessories = (props: accessories) => {
     setBrand(initializeState(item, "Brand"));
     setSize(initializeState(item, "Size"));
   }, [item]);
-  console.log(Size, "check array", Brand, selectedBrand, selectedSize);
 
   return (
     <div className="relative flex flex-col items-center justify-center gap-x-4 w-full min-w-full  border-b-2 border-gray-300">

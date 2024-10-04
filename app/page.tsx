@@ -1,5 +1,6 @@
 "use client";
 import Kitchen from "@/components/Kitchen/kitchen";
+import Solution from "@/components/Solution/solution";
 import Wardrobe from "@/components/Wardrobe/wardrobe";
 import Summary from "@/components/summary";
 import { useState } from "react";
@@ -10,27 +11,36 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <h2 className="mt-2 text-center">Custom Calculator</h2>
+      <button
+        onClick={() => switchTab(4)}
+        className={`text-lg rounded-lg mb-2 mx-2 p-4 ${
+          tab === 4 ? "bg-blue-400" : "bg-gray-400"
+        }`}
+      >
+        Summary
+      </button>
       <div className="flex justify-center my-6 flex-wrap">
         <button
           onClick={() => switchTab(1)}
-          className={`text-lg rounded-tl-lg rounded-bl-lg  mb-2 p-4 ${
+          className={`text-lg rounded-lg rounded-bl-lg p-4 ${
             tab === 1 ? "bg-blue-400" : "bg-gray-400"
           }`}
         >
           Kitchen
         </button>
         <button
-          onClick={() => switchTab(3)}
-          className={`text-lg rounded-lg mb-2 mx-2 p-4 ${
-            tab === 3 ? "bg-blue-400" : "bg-gray-400"
+          onClick={() => switchTab(2)}
+          className={`text-lg rounded-lg rounded-bl-lg mx-2 p-4 ${
+            tab === 2 ? "bg-blue-400" : "bg-gray-400"
           }`}
         >
-          Summary
+          Solution
         </button>
+
         <button
-          onClick={() => switchTab(2)}
-          className={`text-lg rounded-tr-lg rounded-br-lg mb-2 p-4 ${
-            tab === 2 ? "bg-blue-400" : "bg-gray-400"
+          onClick={() => switchTab(3)}
+          className={`text-lg rounded-lg rounded-br-lg p-4 ${
+            tab === 3 ? "bg-blue-400" : "bg-gray-400"
           }`}
         >
           Wardrobe
@@ -42,9 +52,12 @@ export default function Home() {
           <Kitchen />
         </div>
         <div className={`${tab !== 2 && "hidden"}`}>
-          <Wardrobe />
+          <Solution />
         </div>
         <div className={`${tab !== 3 && "hidden"}`}>
+          <Wardrobe />
+        </div>
+        <div className={`${tab !== 4 && "hidden"}`}>
           <Summary />
         </div>
       </div>

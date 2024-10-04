@@ -1,68 +1,69 @@
-import { Fragment, useEffect, useState } from "react";
-import { Listbox, Transition } from "@headlessui/react";
+import { useEffect, useState } from "react";
+import {
+  Listbox,
+  ListboxButton,
+  ListboxOption,
+  ListboxOptions,
+  Transition,
+} from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
-type Props = {
-  data: { name: string | number | undefined; [key: string]: any }[] | undefined;
-  cb?: (data: { name: string | number; [key: string]: any } | null) => void;
+type Props<T> = {
+  data: T[] | undefined;
+  cb?: (data: T | null) => void;
   label?: string;
   useDefault?: boolean;
   selectedVal?: string;
 };
 
-export default function ListBox(props: Props) {
-  const [selected, setSelected] = useState<
-    | {
-        name: string | number | undefined;
-        [key: string]: any;
-      }
-    | undefined
-  >(props?.data?.[0]);
+export default function ListBox<
+  T extends { name: string | number | undefined }
+>({ data, cb, label, selectedVal }: Props<T>) {
+  const [selected, setSelected] = useState<T | undefined>(data?.[0]);
 
-  const handleSelection = (val: any) => {
+  const handleSelection = (val: T) => {
     setSelected(val);
-    props?.cb ? props.cb(val) : null;
+    cb?.(val);
   };
+
   useEffect(() => {
-    // Set selected to the first item in props.data when props.data changes
-    if (props.data && props.data.length > 0) {
-      setSelected(props.data[0]);
+    if (data && data.length > 0) {
+      setSelected(data[0]);
     }
-  }, [props.data]);
+  }, [data]);
+
   useEffect(() => {
-    if (props.selectedVal && props.data) {
-      const foundObject = props.data.find(
-        (item) => item.name === props.selectedVal
-      );
+    if (selectedVal && data) {
+      const foundObject = data.find((item) => item.name === selectedVal);
       if (foundObject) {
         setSelected(foundObject);
       }
     }
-  }, [props.selectedVal, props.data]);
+  }, [selectedVal, data]);
+
   useEffect(() => {
-    handleSelection(selected);
+    if (selected) handleSelection(selected);
   }, [selected]);
 
   return (
     <div className="relative max-w-36">
-      {props.label && <p>{props.label}</p>}
+      {label && <p>{label}</p>}
       <Listbox value={selected} onChange={(val) => handleSelection(val)}>
         <div className="relative">
-          <Listbox.Button className="relative w-full py-2 pl-3 pr-10 text-left bg-white border border-gray-300 rounded-lg shadow-md cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:border-indigo-500 sm:text-sm">
+          <ListboxButton className="relative w-full py-2 pl-3 pr-10 text-left bg-white border border-gray-300 rounded-lg shadow-md cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:border-indigo-500 sm:text-sm">
             <span className="block truncate">
-              {selected && selected.name && props?.data && props.data.length
+              {selected && selected.name && data && data.length
                 ? selected.name
                 : "No Data available"}
-            </span>{" "}
-            {/* Display "Select..." if nothing selected */}
+            </span>
             <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
               <ChevronUpDownIcon
                 className="w-5 h-5 text-gray-400"
                 aria-hidden="true"
               />
             </span>
-          </Listbox.Button>
-          {props?.data && (
+          </ListboxButton>
+          {data && (
             <Transition
               as={"div"}
               enter="transition ease-out duration-100"
@@ -72,13 +73,13 @@ export default function ListBox(props: Props) {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Listbox.Options className="w-80 absolute z-10 mt-1 overflow-auto hideScroll bg-white border border-gray-300 rounded-md shadow-lg max-h-32 ring-1 ring-black ring-opacity-5 focus:outline-none text-xs">
-                {props?.data?.map((person, personIdx) => (
-                  <Listbox.Option
+              <ListboxOptions className="w-80 absolute z-10 mt-1 bottom-full overflow-auto hideScroll bg-white border border-gray-300 rounded-md shadow-lg max-h-32 ring-1 ring-black ring-opacity-5 focus:outline-none text-xs">
+                {data.map((person, personIdx) => (
+                  <ListboxOption
                     key={personIdx}
-                    className={({ active }) =>
+                    className={({ focus }) =>
                       `${
-                        active ? "text-amber-900 bg-amber-100" : "text-gray-900"
+                        focus ? "text-amber-900 bg-amber-100" : "text-gray-900"
                       }
                       cursor-default select-none relative py-2 pl-3 pr-9`
                     }
@@ -100,9 +101,9 @@ export default function ListBox(props: Props) {
                         ) : null}
                       </>
                     )}
-                  </Listbox.Option>
+                  </ListboxOption>
                 ))}
-              </Listbox.Options>
+              </ListboxOptions>
             </Transition>
           )}
         </div>

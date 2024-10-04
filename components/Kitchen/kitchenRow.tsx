@@ -38,7 +38,12 @@ const KitchenRow = (props: Props) => {
 
   return (
     <div className="flex items-center justify-center gap-x-4 w-full py-2">
-      <ListBox data={dummyData.kitchen} cb={(val) => setCost(val?.[type])} />
+      <ListBox
+        data={dummyData.kitchen}
+        cb={(val) => {
+          if (val) setCost(val?.[type]);
+        }}
+      />
       <p className="w-32 justify-center flex">{props.productname}</p>
       <div className="flex gap-x-2 px-4 border-gray-400 border-x-2 border-y-0">
         {Object.entries(wall).map(([wallName, wallValue], idx) => (

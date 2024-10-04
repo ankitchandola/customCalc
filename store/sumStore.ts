@@ -5,6 +5,7 @@ interface TotalSumState {
     kitchenAccessories: number;
     wardrobeWood: number;
     wardrobeAccessories: number;
+    solution: number
 }
 
 interface TotalSumActions {
@@ -12,6 +13,7 @@ interface TotalSumActions {
     setKitchenAccessory: (total: number) => void;
     setWardrobeWood: (total: number) => void;
     setWardrobeAccessories: (total: number) => void;
+    setSolution: (total: number) => void
 }
 
 // Create a Zustand store with typed state and actions
@@ -20,10 +22,12 @@ const useTotalSumStore = create<TotalSumState & TotalSumActions>((set) => ({
     kitchenAccessories: 0,
     wardrobeWood: 0,
     wardrobeAccessories: 0,
+    solution: 0,
     setKitchenWood: (total: number) => set({ kitchenWood: total }),
     setKitchenAccessory: (total: number) => set({ kitchenAccessories: total }),
     setWardrobeWood: (total: number) => set({ wardrobeWood: total }),
     setWardrobeAccessories: (total: number) => set({ wardrobeAccessories: total }),
+    setSolution: (total: number) => set({ solution: total })
 }));
 
 export default useTotalSumStore;
