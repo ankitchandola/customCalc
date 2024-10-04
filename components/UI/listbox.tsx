@@ -73,7 +73,7 @@ export default function ListBox<
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <ListboxOptions className="w-80 absolute z-10 mt-1 bottom-full overflow-auto hideScroll bg-white border border-gray-300 rounded-md shadow-lg max-h-32 ring-1 ring-black ring-opacity-5 focus:outline-none text-xs">
+              <ListboxOptions className="w-80 absolute z-10 mt-1  overflow-auto hideScroll bg-white border border-gray-300 rounded-md shadow-lg max-h-32 ring-1 ring-black ring-opacity-5 focus:outline-none text-xs">
                 {data.map((person, personIdx) => (
                   <ListboxOption
                     key={personIdx}
