@@ -34,7 +34,7 @@ export default function Home() {
             tab === 2 ? "bg-blue-400" : "bg-gray-400"
           }`}
         >
-          Solution
+          Services
         </button>
 
         <button

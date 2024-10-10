@@ -46,10 +46,22 @@ const Solution: React.FC = () => {
       : 0;
   }, [totalArray, discount]);
 
+  const calculateServicesObject = useCallback(() => {
+    const withoutGst = totalArray.reduce((acc, total) => acc + total, 0);
+    const discountTotal = Number((withoutGst * (discount / 100)).toFixed(2));
+    const withGst = Number((withoutGst + withoutGst * (18 / 100)).toFixed(2));
+    const handlingFee = Number((withoutGst * (8 / 100)).toFixed(2));
+    return {
+      withoutGst,
+      discountTotal,
+      withGst,
+      handlingFee,
+    };
+  }, [discount, totalArray]);
+
   useEffect(() => {
-    const totalSum = calculateTotalSum();
-    setSolution(totalSum);
-  }, [totalArray, discount, calculateTotalSum, setSolution]);
+    setSolution(calculateServicesObject());
+  }, [totalArray, discount, calculateServicesObject, setSolution]);
 
   return (
     <div className="w-full h-full px-4 py-16">
@@ -58,7 +70,7 @@ const Solution: React.FC = () => {
           {({ open }) => (
             <>
               <DisclosureButton className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                <span>Solution</span>
+                <span>Services</span>
                 <ChevronUpIcon
                   className={`${
                     open ? "rotate-180 transform" : ""

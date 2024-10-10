@@ -12,22 +12,24 @@ const Summary = () => {
 
   return (
     <div className="w-full h-full px-4 py-16">
-      <div className="mx-auto w-full max-w-[80%] rounded-2xl bg-white p-2 space-y-6">
+      <div className="mx-auto w-full max-w-[80%] rounded-2xl bg-white p-8 space-y-6">
         <div>
           <h2 className="text-lg font-semibold">Kitchen Summary</h2>
           <table className="w-full">
             <tbody>
               <tr>
                 <td className="py-2">Wooden part with installation:</td>
-                <td className="py-2">{kitchenWood}</td>
+                <td className="py-2 flex justify-end">{kitchenWood}</td>
               </tr>
               <tr>
                 <td className="py-2">Accessories:</td>
-                <td className="py-2">{kitchenAccessories}</td>
+                <td className="py-2 flex justify-end">{kitchenAccessories}</td>
               </tr>
               <tr>
                 <td className="py-2">Total with GST:</td>
-                <td className="py-2">{kitchenAccessories + kitchenWood}</td>
+                <td className="py-2 flex justify-end">
+                  {kitchenAccessories + kitchenWood}
+                </td>
               </tr>
             </tbody>
           </table>
@@ -38,26 +40,44 @@ const Summary = () => {
             <tbody>
               <tr>
                 <td className="py-2">Wooden part with installation:</td>
-                <td className="py-2">{wardrobeWood}</td>
+                <td className="py-2 flex justify-end">{wardrobeWood}</td>
               </tr>
               <tr>
                 <td className="py-2">Accessories:</td>
-                <td className="py-2">{wardrobeAccessories}</td>
+                <td className="py-2 flex justify-end">{wardrobeAccessories}</td>
               </tr>
               <tr>
                 <td className="py-2">Total with GST:</td>
-                <td className="py-2">{wardrobeAccessories + wardrobeWood}</td>
+                <td className="py-2 flex justify-end">
+                  {wardrobeAccessories + wardrobeWood}
+                </td>
               </tr>
             </tbody>
           </table>
         </div>
         <div>
-          <h2 className="text-lg font-semibold">Solution Summary</h2>
+          <h2 className="text-lg font-semibold">Services Summary</h2>
           <table className="w-full">
             <tbody>
               <tr>
+                <td className="py-2">Total without GST:</td>
+                <td className="py-2 flex justify-end">{solution.withoutGst}</td>
+              </tr>
+              <tr>
                 <td className="py-2">Total with GST:</td>
-                <td className="py-2">{solution}</td>
+                <td className="py-2 flex justify-end">{solution.withGst}</td>
+              </tr>
+              <tr>
+                <td className="py-2">Discount:</td>
+                <td className="py-2 flex justify-end">
+                  {solution.discountTotal}
+                </td>
+              </tr>
+              <tr>
+                <td className="py-2">Handling fee:</td>
+                <td className="py-2 flex justify-end">
+                  {solution.handlingFee}
+                </td>
               </tr>
             </tbody>
           </table>
@@ -69,7 +89,9 @@ const Summary = () => {
               kitchenWood +
               wardrobeAccessories +
               wardrobeWood +
-              solution}
+              solution.withGst +
+              solution.handlingFee -
+              solution.discountTotal}
           </p>
         </div>
       </div>
