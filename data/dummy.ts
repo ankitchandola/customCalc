@@ -328,7 +328,12 @@ const dummyData = {
             {
                 "Brand": "Hettich",
                 "Size": "600",
-                "Price": "65000.000"
+                "Price": "30000.000"
+            },
+            {
+                "Brand": "Hettich",
+                "Size": "450",
+                "Price": "25000.000"
             }
         ],
         "BPO": [
