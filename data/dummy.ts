@@ -7,7 +7,7 @@ const dummyData = {
         { "name": "Lacquered-HDHMR+HDHMR", "base": 3984, "wallLoft": 3984 },
         { "name": "Glass Shutter With Frame-HDHMR+GLASS", "base": 3707, "wallLoft": 3707 },
         { "name": "Laminate-MDF+MDF", "base": 2110, "wallLoft": 1760 },
-        { "name": "Acrylic-MDF+MDF", "base": 275, "wallLoft": 2325 },
+        { "name": "Acrylic-MDF+MDF", "base": 2750, "wallLoft": 2325 },
         { "name": "PU-MDF+MDF", "base": 3149, "wallLoft": 2798 },
         { "name": "Membrane-MDF+MDF", "base": 2290, "wallLoft": 1940 },
         { "name": "Lacquered-MDF+MDF", "base": 3178, "wallLoft": 2827 },
