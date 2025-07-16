@@ -1,6 +1,6 @@
 const dummyData = {
     "kitchen": [
-        { "name": "Laminate-HDHMR+HDHMR", "base": 2354, "wallLoft": 2004 },
+        { "name": "Laminate-HDHMR+HDHMR", "base": 2354, "wallLoft": 2004 }, 
         { "name": "Acrylic-HDHMR+HDHMR", "base": 3165, "wallLoft": 2789 },
         { "name": "PU-HDHMR+HDHMR", "base": 3670, "wallLoft": 3294 },
         { "name": "Membrane-HDHMR+HDHMR", "base": 3000, "wallLoft": 2800 },
