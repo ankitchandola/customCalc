@@ -45,8 +45,8 @@ const Summary = () => {
               <tr>
                 <td className="py-2">Accessories:</td>
                 <td className="py-2 flex justify-end">{wardrobeAccessories}</td>
-              </tr>
-              <tr>   */}
+              </tr> */}
+              <tr>   
                 <td className="py-2">Total with GST:</td>
                 <td className="py-2 flex justify-end">
                   {wardrobeAccessories + wardrobeWood}
