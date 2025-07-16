@@ -48,7 +48,7 @@ const dummyData = {
         { "name": "Acrylic-BWP+MDF", "value": 3217 },
         { "name": "PU-BWP+MDF", "value": 3725 },
         { "name": "PU-BWP+MDF RATTAN", "value": 4764 },
-        { "name": "Glass Shutter-BWP+GLASS", "value": 4416 }
+        { "name": "Glass Shutter-BWP+GLASS", "value": 4416 },
         { "name": "MEMBRANE-BWP+MDF ", "value": 2980 },
 
 
