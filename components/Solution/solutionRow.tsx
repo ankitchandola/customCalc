@@ -37,11 +37,11 @@ const SolutionRow: React.FC<Props> = ({ deleteRow, updateTotal, id }) => {
       </div>
       <div className="flex w-full mt-4 justify-between">
         <div className="flex gap-x-6">
-         /* <div className="px-4">
+          {/* <div className="px-4">
             <p>Rate</p>
             <p className="text-black">{activeRow?.rate}</p>
           </div>
-         */ 
+         */ }
           <div className="px-4">
             <p>Unit</p>
             <p className="text-black">{activeRow?.unit}</p>
