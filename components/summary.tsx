@@ -17,14 +17,14 @@ const Summary = () => {
           <h2 className="text-lg font-semibold">Kitchen Summary</h2>
           <table className="w-full">
             <tbody>
-            /*  <tr>
+              {/*  <tr>
                <td className="py-2">Wooden part with installation:</td>
                 <td className="py-2 flex justify-end">{kitchenWood}</td>
              </tr>
               <tr>
                 <td className="py-2">Accessories:</td>
                <td className="py-2 flex justify-end">{kitchenAccessories}</td>
-             </tr> */
+             </tr> */}
               <tr>
                 <td className="py-2">Total with GST:</td>
                 <td className="py-2 flex justify-end">
