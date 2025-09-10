@@ -451,637 +451,700 @@ const dummyData = {
     }
     ,
     "solutionObject": <SolutionObject[]>[
-        {
-            "name": "Manual Demolition",
-            "rate": 30,
-            "specification": "N/A",
-            "description": "Demolition and disposal of PCC/ Brick Wall/ Glass/wooden Partition/ Floor Tiles / Granite Counter. - Manual shifting of derbis (without service elevator) - extra charge",
-            "unit": "Sqft or Rft"
-        },
-        {
-            "name": "Material Shifting",
-            "rate": 875,
-            "specification": "N/A",
-            "description": "Extra Labour Cost for Material shifting/lifting as per site condition (per day).",
-            "unit": "Nos"
-        },
-        {
-            "name": "Kitchen Package",
-            "rate": 48,
-            "specification": "N/A",
-            "description": "Demolition of Kitchen with counter, storages, wall tiles, base partitions including debris disposal. Floor tile demolition is separate. Kitchen Floor area to be considered for caalculation purpose",
-            "unit": "Sqft"
-        },
-        {
-            "name": "Toilet Package",
-            "rate": 48,
-            "specification": "N/A",
-            "description": "Demolition of Toilet with fixtures, storages, wall & floor tiles including debris disposal.\n - Toilet Floor area to be considered.\n - Brickbat coba separate",
-            "unit": "Sqft"
-        },
-        {
-            "name": "Wardrobe Skirting Package",
-            "rate": 2014,
-            "specification": "N/A",
-            "description": "Demolition of only Skirting and its disposal till common disposal area. Applying one coat of appropriate finish till wall surface.\n - Skirting Tile refixing included.\n - Tile procurement not included",
-            "unit": "Nos"
-        },
-        {
-            "name": "Debris Disposal",
-            "rate": 2874,
-            "specification": "N/A",
-            "description": "Debris disposal / Shipment using Tractors. Quantity to be paid as per actual",
-            "unit": "No of trips"
-        },
-        {
-            "name": "4 inch thick Brick wall",
-            "rate": 151,
-            "specification": "Bricks: First Class|| Cement-Ultratech, Ambuja or Birla",
-            "description": "Providing and laying 4\" brick masonry with cement mortar as per IS practices.\n - Without plastering.",
-            "unit": "Sqft"
-        },
-        {
-            "name": "9 inch thick Brick wall",
-            "rate": 274,
-            "specification": "Bricks: First Class|| Cement-Ultratech, Ambuja or Birla",
-            "description": "Providing and laying 9\" brick masonry with cement mortar as per IS practices.\n - Without plastering.",
-            "unit": "Sqft"
-        },
-        {
-            "name": "Installation of Indian WC + Flush Tank",
-            "rate": 1517,
-            "specification": "N/A",
-            "description": "Only Installation of Indian type WC with Flush tank.\n No accessories included.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Indian WC",
-            "rate": 1209,
-            "specification": "N/A",
-            "description": "Only Installation of Indian type WC without Flush tank",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Western WC - Floor mounted",
-            "rate": 1187,
-            "specification": "N/A",
-            "description": "Only Installation of Western type WC- Floor mounted\n No accessories included.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Western WC - Wall mounted",
-            "rate": 1352,
-            "specification": "N/A",
-            "description": "Only Installation of Western type WC- Wall mounted type\n No civil works",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of health Faucet/Jet spray",
-            "rate": 245,
-            "specification": "N/A",
-            "description": "Only Installation of Health Faucet\n No accessories included.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Flush Tank",
-            "rate": 566,
-            "specification": "N/A",
-            "description": "Flush Tank installation.\n No accessories included.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Instalation of Shower Head",
-            "rate": 406,
-            "specification": "N/A",
-            "description": "Only Installation of Shower head\n No accessories included.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Mixer (Hot and Cold water)",
-            "rate": 300,
-            "specification": "N/A",
-            "description": "Only Installation of Mixer (Hot and Cold water)\n Pipe line work not included- to be charged separately",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Wash Basin",
-            "rate": 650,
-            "specification": "N/A",
-            "description": "Only Installation of Wash Basin\n No accessories included\n Wash basin procurement not included\n White cement / Silicone included",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Kitchen sink",
-            "rate": 846,
-            "specification": "N/A",
-            "description": "Only Installation of Sink.\n No accessories included\n Sink Procurement not incl\n Metal paste / Grout incl",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of Geyser",
-            "rate": 718,
-            "specification": "N/A",
-            "description": "Only Installation of Geyser\n - No pipe accessories included\n - Hardwares incl",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of new tap",
-            "rate": 321,
-            "specification": "N/A",
-            "description": "Only Installation of New Tap - Installation only",
-            "unit": "Nos"
-        },
-        {
-            "name": "Supply and Installation of nanhi trap (Jaali)",
-            "rate": 507,
-            "specification": "N/A",
-            "description": "Supply and Installation of Nanhi Trap without CP Jali.\n - Base price of Trap Rs 150",
-            "unit": "Nos"
-        },
-        {
-            "name": "Toilet Fixture installation package",
-            "rate": 4830,
-            "specification": "N/A",
-            "description": "Fixtures Installation (1 W/C+1 health faucet+1 Shower+ 1 Geyser +1 Wash basin+ 1 Vent fan )",
-            "unit": "Lumpsum"
-        },
-        {
-            "name": "Waterproofing",
-            "rate": 70,
-            "specification": "Asian DB2K",
-            "description": "Providing and applying of waterproofing on floor and wall up to 600mm",
-            "unit": "Sqft"
-        },
-        {
-            "name": "Complete Toilet Package",
-            "rate": 27892,
-            "specification": "Plumbing Waste Pipe- Supreme, Prakash, Prince| Palumbing water pipe- Astral, Finolex, Ashirwad",
-            "description": "One complete toilet items\n - Providing & Installation of Supply & Drain line(Only within Toilet)\n - Only Installation (1 W/C+1 health faucet+1 Shower+ 1 Mixer + 1 faucet + 1 Wash basin+ 1 geyser + 1 vent fan)",
-            "unit": "Nos"
-        },
-        {
-            "name": "Kitchen Fixture Installation",
-            "rate": 4500,
-            "specification": "N/A",
-            "description": "Installation of RO, geyser, sink, taps, mixer in kitchen. Fixtures to be provided by client.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Kitchen Plumbing work",
-            "rate": 12500,
-            "specification": "Plumbing Water pipe - Astral , Finolex, Ashirwad, Supreme",
-            "description": "Providing new plumbing point for Sink, RO geyser and dishwasher, note: drain point cost not included",
-            "unit": "Nos"
-        },
-        {
-            "name": "New Drain point",
-            "rate": 2200,
-            "specification": "Plumbing Water pipe - Astral , Finolex, Ashirwad, Supreme",
-            "description": "Providing new drain point in kitchen",
-            "unit": "Nos"
-        },
-        {
-            "name": "Closing/Dummy of Existing Point",
-            "rate": 242,
-            "specification": "N/A",
-            "description": "Closing existing switch point by placing a dummy or with plaster",
-            "unit": "Nos"
-        },
-        {
-            "name": "Relocation of Existing 2Module 5A Point",
-            "rate": 763,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Relocation of Existing Point - 5Amps, 2 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided to the contractor",
-            "unit": "Nos"
-        },
-        {
-            "name": "New 2 Module 5A Point",
-            "rate": 1043,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing New Point - 5Amps, 2 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided to the contractor",
-            "unit": "Nos"
-        },
-        {
-            "name": "New 4 Module 5A Point",
-            "rate": 1618,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing New Point - 5Amps, 4 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided to the contractor",
-            "unit": "Nos"
-        },
-        {
-            "name": "Providing isolation of switch and socket",
-            "rate": 1204,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing Isolation of switch and sockets - 2 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Relocation of Existing 4 Module 15A Point",
-            "rate": 906,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Relocation of Existing Point - 15Amps, 4 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Relocation of Existing 6 Module 15A Point",
-            "rate": 1000,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Relocation of Existing Point - 15Amps, 6 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Relocation of Existing 8 Module 15A Point",
-            "rate": 1097,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Relocation of Existing Point - 15Amps, 8 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "New 4 Module 15A point",
-            "rate": 1897,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing New Point - In Walls - 15Amps, 4 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "New 6 Module 15A point",
-            "rate": 2465,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing New Point - In Walls - 15Amps, 6 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "New 8 Module 15A point",
-            "rate": 2970,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing New Point - In Walls - 15Amps, 8 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Internet Cable",
-            "rate": 2174,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing and Installing Internet Cable - upto 20 feet. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "TV Cable",
-            "rate": 1932,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing and Installing TV Cable - upto 20 feet. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Fan fixing",
-            "rate": 556,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Only fixing of Fan with assembly and installation - with wires.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Fixture fitting",
-            "rate": 146,
-            "specification": "N/A",
-            "description": "Only Fixing of Fixtures incl Tube Lights, Wall and ceiling Lights only. No Chandelier lights and vent fans.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Fan point shifting",
-            "rate": 894,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Fan point shifting with anchor fastener.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Installation of LED light fitting",
-            "rate": 169,
-            "specification": "N/A",
-            "description": "Only Fixing of Led Light fitting.",
-            "unit": "Nos"
-        },
-        {
-            "name": "Additional wiring",
-            "rate": 61,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Additional charges for wiring works.",
-            "unit": "R ft"
-        },
-        {
-            "name": "AC Base Work",
-            "rate": 666,
-            "specification": "Malaysia/Mandev",
-            "description": "provision and installation of AC Copper piping including chiseling and repairing cost included drain piping , Note AC installation and core cutting is not included.",
-            "unit": "R ft"
-        },
-        {
-            "name": "Full home Electrical",
-            "rate": 157,
-            "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Providing and Positioning electrical points as per drawing. cost to be included conduting, wiring, looping with testing & commissioning. (relocation and new point both) for any chiseling in RCC (if required) permission to be provided by clint from society prior to work start. switch/socket/face plate to be provided by the client. switch, socket, db, mcb, to be provided by client. full home fixtures installation (light and fans) cost included except chandelier, geyser, exhaust or any other appliances, fixtures to be provided by the client, only provision (conduting only) for tv cable, cctv, speaker, wiring, internet cable, telephone wiring works for these works xcable to be provided by the client. supply line wiring up to DB to be provided by the client or society.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "PCC-1:4:8 , 50-75 mm",
-            "rate": 50,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "PCC 1:4:8 Including neccessary frame work, 50-70 mm thick.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "PCC-1:4:8 , 30-40 mm",
-            "rate": 35,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "PCC 1:4:8 Including neccessary frame work, 30-40 mm thick.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Core cutting",
-            "rate": 2476,
-            "specification": "N/A",
-            "description": "Core Cutting of Existing walls for providing through pipes and sleeves",
-            "unit": "Nos"
-        }, {
-            "name": "Plaster Demolition",
-            "rate": 14,
-            "specification": "N/A",
-            "description": "Hacking of wall / RCC surfaces.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Rough Plaster",
-            "rate": 36,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Rough Plaster for base preparation of wall tiles.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Plaster",
-            "rate": 52,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Providing & applying 12-15mm thick wall plaster on internal walls in 1:4. (1 cement: 4 sand)",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "POP Punning, 12-20 mm",
-            "rate": 32,
-            "specification": "Sakarani or Sriram",
-            "description": "Providing and applying 12-20 mm thick POP punning on wall.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "POP Punning, 6-12 mm",
-            "rate": 27,
-            "specification": "Sakarani or Sriram",
-            "description": "Providing and applying 6-12 mm thick POP punning on wall.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Installation of Vitrified/Ceramic floor tiles - Square pattern",
-            "rate": 65,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of vitrified/Ceramic floor tiles - Square pattern, without Spacers (1'X1' to 2'X2'). No PCC / Screed included. Skirting at the same amount per sft. Tiles to be provided by client. Any changes in tile size to be charged extra.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Installation of Vitrified/Ceramic floor tiles - Other pattern",
-            "rate": 74,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of vitrified/ Ceramic floor tiles - sizes up to 4'x2'6'', all patterns. No PCC/ Screed included. Skirting at the same amount per sft. Tiles to be provided by client. Any damage due to any reason only the installation will be free of cost while the supply will be done by Client.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Installation of Vitrified/Ceramic floor tiles - Other pattern",
-            "rate": 90,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of vitrified/ Ceramic floor tiles - any size, all patterns. No PCC/ Screed included. Skirting at the same amount per sft. Tiles to be provided by client. Any damage due to any reason only the installation will be free of cost while the supply will be done by Client.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Epoxy Grout",
-            "rate": 20,
-            "specification": "N/A",
-            "description": "Supply and Installation of Epoxy Grout between floor tile Joints in wet areas including Toilets, Balconies, Utility",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Installation of Indian Marble / Granite flooring",
-            "rate": 113,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of Stone (Indian Marble / Granite) flooring using Cement mortar. Stone to be provided by client. Polishing not included. Labour Lifting charges extra. Skirting at same rate per rft.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Polishing of Indian Marble / Granite flooring",
-            "rate": 50,
-            "specification": "N/A",
-            "description": "Polishing Charges (Indian Marble / Granite).",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Installation of Italian Marble flooring",
-            "rate": 172,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of Stone flooring (Italian Marble) using Cement mortar. Stone to be provided by client. Polishing not included. Client to provide Marble. Labour Lifting charges extra. Skirting at same rate per rft.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Polishing of Italian Marble Flooring",
-            "rate": 90,
-            "specification": "N/A",
-            "description": "Polishing Charges (incl Diamond Polish).",
-            "unit": "Sq ft"
-        }, {
-            "name": "Lifting charges - Stone",
-            "rate": 4175,
-            "specification": "N/A",
-            "description": "Lifting Charges",
-            "unit": "Lumpsum"
-        },
-        {
-            "name": "Installation of wall tile - (1' x 1' to 2' x 2')",
-            "rate": 70,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of wall tile - (1' x 1' to 2' x 2'). Rough plaster to be considered separately. Tiles to be provided by client. Any changes in tile size to be charged extra.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Installation of wall tile - (smaller than 1' x 1' or bigger than 2' x 2')",
-            "rate": 74,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of wall tile - (smaller than 1' x 1' or bigger than 2' x 2'). Rough Plaster to be considered separately. Tiles to be provided by client.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Toilet floor and wall tiling",
-            "rate": 580,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Per Toilet Tile Installation on wall and floor (Toilet floor area 50 sft). Floor shall be made with Epoxy Grout - Rough Plaster / PCC considered - No water proofing considered.",
-            "unit": "Lumpsum"
-        },
-        {
-            "name": "Granite Platform in Kitchen",
-            "rate": 314,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of granite platform with sink cutting, single/double nosing, drip course. Lifting charges extra as per site validation. Base ply not included.",
-            "unit": "Lumpsum"
-        },
-        {
-            "name": "Granite Platform in Utility / Storages / vanity",
-            "rate": 390,
-            "specification": "Cement: Ultratech, Ambuja or Birla",
-            "description": "Installation of granite platform with sink cutting, single nosing, drip course ideal for wash basin counters, ledges etc.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Gypsum Board Ceiling - Standard",
-            "rate": 117,
-            "specification": "Gyprox or equivalent",
-            "description": "Providing and fixing false ceiling with Standard Grade Gypsum board and appropriate GI channels.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Gypsum Ceiling with Electrical - Standard range",
-            "rate": 160,
-            "specification": "Gyprox or equivalent | Local 'A' grade channel | Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "Gypsum Ceiling with Electrical Package - Gypsum Ceiling cove incl - Wiring in Ceiling - Looping incl - No light supply but Light fixing included - 1 light per 8 sft of ceiling.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "POP Ceiling",
-            "rate": 137,
-            "specification": "Sakarni or equivalent | Saint Gobain, Lafarge or Indian gypsum channel",
-            "description": "Providing and laying POP ceiling with appropriate Premium grade GI sections and channels.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "POP Ceiling",
-            "rate": 125,
-            "specification": "Sakarni or equivalent | Local 'A' grade channel",
-            "description": "Providing and laying POP ceiling with appropriate Premium grade GI sections and channels.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "POP Ceiling with Electrical - Standard range",
-            "rate": 200,
-            "specification": "Sakarni or equivalent | Local 'A' grade channel | Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
-            "description": "POP Ceiling with Electrical Package - POP Ceiling - Wiring in Ceiling - Looping incl - No light supply but Light fixing included - 1 light per 8 sft of ceiling.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Gypsum Cove / POP Cove",
-            "rate": 77,
-            "specification": "Sakarni or equivalent | Local 'A' grade channel",
-            "description": "Providing and fixing Gypsum/POP Cove in false ceiling with adequate support mechanism. Upto 6\".",
-            "unit": "R ft"
-        },
-        {
-            "name": "Grid Ceiling",
-            "rate": 131,
-            "specification": "Armstrong",
-            "description": "Providing and laying 600x600mm Grid Ceiling in toilets with Moisture resistant board.",
-            "unit": "Sq ft"
-        }, {
-            "name": "Base preparation for Wall paper",
-            "rate": 20,
-            "specification": "Asian Paint",
-            "description": "Providing and applying 2 coats of putty + 1 coat oil based primer on walls with appropriate preparation - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Premium Emulsion - Repainting",
-            "rate": 20,
-            "specification": "Asian Paint",
-            "description": "Providing and applying touchup Putty, and 2 Coats of premium Emulsion paint - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Tractor Emulsion - Fresh painting",
-            "rate": 20,
-            "specification": "Asian Paint",
-            "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of Tractor emulsion paint - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Premium Emulsion - Fresh painting",
-            "rate": 23,
-            "specification": "Asian Paint",
-            "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint. - Scaffolding Charges extra. Note: More than two colors on a single wall or any kind of pattern will be charged extra. Cost of 3 color samples included.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Royal Emulsion - Fresh Painting with Acrylic Putty",
-            "rate": 29,
-            "specification": "Asian Paint",
-            "description": "Providing and applying Acrylic Putty, 1 coat primer and 2 Coats of Royal emulsion paint - Scaffolding Charges extra. Note: More than two colors on a single wall or any kind of pattern will be charged extra. Cost of 3 color samples included.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Royal Aspira - Fresh Painting",
-            "rate": 32,
-            "specification": "Asian Paint",
-            "description": "Providing and applying 2 coats of acylic Putty, 1 coat primer and 2 Coats of Royal Aspira paint - Scaffolding Charges extra. Note: More than two colors on a single wall or any kind of pattern will be charged extra. Cost of 3 color samples included.",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Berger Easy Clean Re Painting (1 Pr + 2 Pa)",
-            "rate": 22,
-            "specification": "Berger",
-            "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint. - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Berger Easy Clean Fresh Painting (2 Pu + 1 Pr + 2 Pa)",
-            "rate": 31,
-            "specification": "Berger",
-            "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint. - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Asian Health Shield Re Painting (1 Pr + 2 Pa)",
-            "rate": 27,
-            "specification": "Asian Paint",
-            "description": "Providing and applying 1 coat primer on walls with appropriate preparation - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Asian Health Shield Fresh Painting (2 Pu + 1 Pr + 2 Pa)",
-            "rate": 36,
-            "specification": "Asian Paint",
-            "description": "Providing and applying 2 coats of acylic Putty, 1 coat primer and 2 Coats of Royal Aspira paint - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Berger Easy Breathe (1 Pr + 2 Pa)",
-            "rate": 31,
-            "specification": "Berger",
-            "description": "Providing and applying 1 coat primer on walls with appropriate preparation - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Nerolac Impressions Eco Clean (1 Pr + 2 Pa)",
-            "rate": 25,
-            "specification": "Nerolac",
-            "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint. - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Berger Easy Breathe (2 Pu + 1 Pr + 2 Pa)",
-            "rate": 41,
-            "specification": "Berger",
-            "description": "Providing and applying 1 coat primer on walls with appropriate preparation - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        },
-        {
-            "name": "Nerolac Impressions Eco Clean (2 Pu + 1 Pr + 2 Pa)",
-            "rate": 34,
-            "specification": "Nerolac",
-            "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint. - Scaffolding Charges extra",
-            "unit": "Sq ft"
-        }
-
-
-    ]
-
+  {
+    "name": "Manual Demolition",
+    "rate": 33,
+    "specification": "N/A",
+    "description": "Demolition and disposal of PCC/ Brick Wall/ Glass/wooden Partition/ Floor Tiles / Granite Counter. - Manual shifting of derbis (without service elevator) - extra charge",
+    "unit": "Sqft or Rft"
+  },
+  {
+    "name": "Material Shifting",
+    "rate": 963,
+    "specification": "N/A",
+    "description": "Extra Labour Cost for Material shifting/lifting as per site condition (per day).",
+    "unit": "Nos"
+  },
+  {
+    "name": "Kitchen Package",
+    "rate": 53,
+    "specification": "N/A",
+    "description": "Demolition of Kitchen with counter, storages, wall tiles, base partitions excluding debris disposal. Kitchen Floor area to be considered for calculation purpose. RCC counter dismantling not included",
+    "unit": "Sqft"
+  },
+  {
+    "name": "Toilet Package",
+    "rate": 53,
+    "specification": "N/A",
+    "description": "Demolition of Toilet with fixtures, storages, wall & floor tiles including debris disposal.\n- Toilet Floor area to be considered.\n- Brickbat coba separate",
+    "unit": "Sqft"
+  },
+  {
+    "name": "Wardrobe Skirting Package",
+    "rate": 2215,
+    "specification": "N/A",
+    "description": "Demolition of only Skirting and its disposal till common disposal area. Applying one coat of appropriate finish till wall surface.\n- Skirting Tile refixing included.\n- Tile procurement not included",
+    "unit": "Nos"
+  },
+  {
+    "name": "Debris Disposal",
+    "rate": 3161,
+    "specification": "N/A",
+    "description": "Debris disposal / Shipment using Tractors. Quantity to be paid as per actual",
+    "unit": "No of trips"
+  },
+  {
+    "name": "4 inch thick Brick wall",
+    "rate": 166,
+    "specification": "Bricks: First Class|| Cement- Ultratech, Ambuja or Birla",
+    "description": "Providing and laying 4\" brick masonry with cement mortar as per IS practices.\n- Without plastering.",
+    "unit": "Sqft"
+  },
+  {
+    "name": "9 inch thick Brick wall",
+    "rate": 301,
+    "specification": "Bricks: First Class|| Cement- Ultratech, Ambuja or Birla",
+    "description": "Providing and laying 9\" brick masonry with cement mortar as per IS practices.\n- Without plastering.",
+    "unit": "Sqft"
+  },
+  {
+    "name": "Installation of Indian WC + Flush Tank",
+    "rate": 1669,
+    "specification": "N/A",
+    "description": "Only Installation of Indian type WC with Flush tank.\nNo accessories included.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Indian WC",
+    "rate": 1584,
+    "specification": "N/A",
+    "description": "Only Installation of Indian type WC without Flush tank",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Western WC - Floor mounted",
+    "rate": 1487,
+    "specification": "N/A",
+    "description": "Only Installation of Western type WC- Floor mounted No accessories included.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Western WC - Wall mounted",
+    "rate": 1305,
+    "specification": "N/A",
+    "description": "Only Installation of Western type WC- Wall mounted type\nNo civil works",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of health Faucet/Jet spray",
+    "rate": 270,
+    "specification": "N/A",
+    "description": "Only Installation of Health Faucet No accessories included.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Flush Tank",
+    "rate": 623,
+    "specification": "N/A",
+    "description": "Flush Tank installation. No accessories included.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Instalation of Shower Head",
+    "rate": 447,
+    "specification": "N/A",
+    "description": "Only Installation of Shower head No accessories included.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Mixer (Hot and Cold water)",
+    "rate": 330,
+    "specification": "N/A",
+    "description": "Only Installation of Mixer (Hot and Cold water) Pipe line work not included- to be charged separately",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Wash Basin",
+    "rate": 715,
+    "specification": "N/A",
+    "description": "Only Installation of Wash Basin No accessories included\nWash basin procurement not included White cement / Silicone included",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Kitchen sink",
+    "rate": 931,
+    "specification": "N/A",
+    "description": "Only Installation of Sink. No accessories included Sink Procurement not incl Metal paste / Grout incl",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of Geyser",
+    "rate": 790,
+    "specification": "N/A",
+    "description": "Only Installation of Geyser\n- No pipe accessories included\n- Hardwares incl",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of new tap",
+    "rate": 353,
+    "specification": "N/A",
+    "description": "Only Installation of New Tap - Installation only",
+    "unit": "Nos"
+  },
+  {
+    "name": "Supply and Installation of nanhi  trap (Jaali)",
+    "rate": 558,
+    "specification": "N/A",
+    "description": "Supply and Installation of Nanhi Trap without CP Jali.\n- Base price of Trap Rs 150",
+    "unit": "Nos"
+  },
+  {
+    "name": "Toilet Fixture installation package",
+    "rate": 5313,
+    "specification": "N/A",
+    "description": "Fixtures Installation (1 W/C+1 health faucet+1 Shower+ 1 Geyser +1 Wash basin+ 1 Vent fan )",
+    "unit": "Lumpsum"
+  },
+  {
+    "name": "Waterproofing",
+    "rate": 77,
+    "specification": "Asian DB2K",
+    "description": "Providing and applying of waterproofing on floor and wall up to 600mm",
+    "unit": "Sqft"
+  },
+  {
+    "name": "Complete Toilet Package",
+    "rate": 39153,
+    "specification": "Plumbing Waste Pipe- Supreme, Prakash, Prince| Plumbing water pipe- Astral, Finolex, Ashirwad",
+    "description": "One complete toilet items\n- Providing & Installation of Supply & Drain line(Only within Toilet)\n- Only Installation (1 W/C+1 health faucet+1 Shower+ 1 Mixer + 1 faucet + 1 Wash basin+ 1 geyser + 1 vent fan)",
+    "unit": "Nos"
+  },
+  {
+    "name": "Kitchen Fixture Installation",
+    "rate": 4950,
+    "specification": "N/A",
+    "description": "Installation of RO, geyser, sink, taps, mixer in\nkitchen. Fixtures to be provided by client.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Kitchen Plumbing work",
+    "rate": 14915,
+    "specification": "Plumbing Water pipe - Astral , Finolex, Ashirwad, Supreme",
+    "description": "Providing 4 new/ shifting plumbing points for Sink, RO geyser and dishwasher. \nNote: drain point cost not included",
+    "unit": "Nos"
+  },
+  {
+    "name": "New Drain point",
+    "rate": 2420,
+    "specification": "Plumbing Water pipe - Astral , Finolex, Ashirwad, Supreme",
+    "description": "Providing new drain point in kitchen",
+    "unit": "Nos"
+  },
+  {
+    "name": "Closing/Dummy of Existing Point",
+    "rate": 266,
+    "specification": "N/A",
+    "description": "Closing existing switch point by placing a dummy or with plaster",
+    "unit": "Nos"
+  },
+  {
+    "name": "Relocation of Existing 2Module 5A Point",
+    "rate": 923,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Relocation of Existing Point - 5Amps, 2 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Relocation of Existing 4Module 5A Point",
+    "rate": 1027,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Relocation of Existing Point - 5Amps, 4 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Relocation of Existing 6Module 5A Point",
+    "rate": 1123,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Relocation of Existing Point - 5Amps, 6 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Relocation of Existing 8Module 5A Point",
+    "rate": 1329,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Relocation of Existing Point - 5Amps, 8 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 2 Module 5A point",
+    "rate": 1398,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In Walls - 5Amps, 2 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 4 Module 5A point",
+    "rate": 1759,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In Walls - 5Amps, 4 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 6 Module 5A point",
+    "rate": 2595,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In Walls - 5Amps, 6 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 8 Module 5A point",
+    "rate": 3031,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In Walls - 5Amps, 8 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 5A Ceiling point",
+    "rate": 707,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In False Ceiling - 5Amps, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Providing 2-way switches, 2A, 2Module",
+    "rate": 2607,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing Two way switches - 2 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Providing isolation of switch and socket",
+    "rate": 1457,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing Isolation of switch and sockets - 2 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Relocation of Existing 4Module 15A Point",
+    "rate": 1096,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Relocation of Existing Point - 15Amps, 4 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Relocation of Existing 6Module 15A Point",
+    "rate": 1210,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Relocation of Existing Point - 15Amps, 6 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Relocation of Existing 8Module 15A Point",
+    "rate": 1327,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Relocation of Existing Point - 15Amps, 8 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 4 Module 15A point",
+    "rate": 2295,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In Walls - 15Amps, 4 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 6 Module 15A point",
+    "rate": 2983,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In Walls - 15Amps, 6 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "New 8 Module 15A point",
+    "rate": 3594,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing New Point - In Walls - 15Amps, 8 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Internet Cable",
+    "rate": 2391,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing and Installaing Internet Cable - upto 20 feet. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "TV Cable",
+    "rate": 2125,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing and Installing TV Cable - upto 20 feet. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Fan fixing",
+    "rate": 612,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Only fixing of Fan with assembly and installation\n- with wires",
+    "unit": "Nos"
+  },
+  {
+    "name": "Fixture fitting",
+    "rate": 1119,
+    "specification": "N/A",
+    "description": "Only Fixing of Fixtures incl Tube Lights, Wall and ceiling Lights in 1 room only. No Chandelier lights and vent fans",
+    "unit": "per room"
+  },
+  {
+    "name": "Fan point shifting",
+    "rate": 1212,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Fan point shifting with anchor fastener",
+    "unit": "Nos"
+  },
+  {
+    "name": "Installation of LED light fitting",
+    "rate": 233,
+    "specification": "N/A",
+    "description": "Only Fixing of Led Light fitting",
+    "unit": "Nos"
+  },
+  {
+    "name": "Additional wiring",
+    "rate": 67,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Additional charges for wiring works",
+    "unit": "R ft"
+  },
+  {
+    "name": "AC Base Work",
+    "rate": 1025,
+    "specification": "Malaysia/Mandev",
+    "description": "provision and installation of AC Copper piping\nincluding chiseling and repairing cost included drain piping , Note AC installation and core cutting is not included",
+    "unit": "R ft"
+  },
+  {
+    "name": "Full home Electrical",
+    "rate": 186,
+    "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
+    "description": "Providing and Positioning electrical points as per drawing. cost to be included conduting, wiring, looping with testing & commissioning. (relocation and new point both) for any chiseling in RCC (if required) permission to be provided by client from society prior to work start. Switch/socket/face plate to be provided by the client. switch, socket, db, mcb, to be provided by client. full home fixtures installation (light and fans) cost included except chandelier, geyser, exhaust or any other appliances, fixtures to be provided by the client, only provision (conduting only) for tv cable, cctv, speaker, wiring, internet cable, telephone wiring works for these works xcable to be provided by the client. supply line wiring up to DB to be provided by the client or society.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Complete Switch Socket Change",
+    "rate": 15950,
+    "specification": "N/A",
+    "description": "Replacement of old switch sockets with new ones including new GI boxes for the same. Please note existing Switch Sockets have old version of GI boxes so new Switch socket plates cant be fixed on the same so new GI boxes are included. Location: Full Home , Note: Switch sockets will be provided by client. Cost of any new point or MCB works not included in this item. UP TO 3BHK",
+    "unit": "Lumpsum"
+  },
+  {
+    "name": "PCC-1:4:8 , 50-75 mm",
+    "rate": 75,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "PCC 1:4:8 Including neccessary frame work, 50-70 mm thick",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "PCC-1:4:8 , 30-40 mm",
+    "rate": 63,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "PCC 1:4:8 Including neccessary frame work, 30-40 mm thick",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Core cutting",
+    "rate": 2724,
+    "specification": "N/A",
+    "description": "6 inch Core cut on Concrete / Brick / Block wall. Permission to be provided by client for core cut prior to work start.",
+    "unit": "Nos"
+  },
+  {
+    "name": "Plaster Demolition",
+    "rate": 19,
+    "specification": "N/A",
+    "description": "Hacking of wall / RCC surfaces.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Rough Plaster",
+    "rate": 42,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Rough Plaster for base preparation of wall tiles.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Plaster",
+    "rate": 61,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Providing & applying 12-15mm thick wall plaster on internal walls in 1:4. (1 cement: 4 sand)",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "POP Punning, 12-20 mm",
+    "rate": 39,
+    "specification": "Sakarani or Sriram",
+    "description": "Providing and applying 12-20 mm thick POP punning on wall.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "POP Punning, 6-12 mm",
+    "rate": 37,
+    "specification": "Sakarani or Sriram",
+    "description": "Providing and applying 6-12 mm thick POP punning on wall.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "POP Grooves",
+    "rate": 61,
+    "specification": "Sakarani or Sriram",
+    "description": "Providing 10mm thick wide and 5mm deep grooves in pop punning on wall finished with\npaint .",
+    "unit": "Rft"
+  },
+  {
+    "name": "Installation of Vitrified/Ceramic floor tiles - Square pattern",
+    "rate": 79,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of vitrified/Ceramic floor tiles\n- Square pattern, without Spacers(1'X1' to 2'X2')\n- No PCC / Screed included.\n- Skirting at the same amount per sft.\n- Tiles to be provided by client. Any changes in tile size to be charged extra.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Installation of Vitrified/Ceramic floor tiles - Other pattern",
+    "rate": 103,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of vitrified/ Ceramic floor tiles - sizes up to 4'x2'6'', all patterns - No PCC/ Screed included - Skirting at the same amount per sft . - Tiles to be provided by client. Any damage due to any reason only the installation will be free of cost while the supply will be done by Client.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Installation of Vitrified/Ceramic floor tiles - Other pattern",
+    "rate": 112,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of vitrified/ Ceramic floor tiles - sizes any size , all patterns - No PCC/ Screed included - Skirting at the same amount per sft . - Tiles to be provided by client. Any damage due to any reason only the installation will be free of cost while the supply will be done by Client.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Epoxy Grout",
+    "rate": 24,
+    "specification": "",
+    "description": "Supply and Installation of Epoxy Grout between floor tile Joints in wet areas including Toilets, Balconies, Utility",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Installation of Indian Marble / Granite flooring",
+    "rate": 140,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of Stone (Indian Marble / Granite) flooring using Cement mortar.\nStone to be provided by client. Polishing not included.\nLabour Lifting charges extra. Skirting at same rate per rft.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Polishing of Indian Marble / Granite flooring",
+    "rate": 55,
+    "specification": "N/A",
+    "description": "Polishing Charges (Indian Marble / Granite).",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Installation of Italian Marble flooring",
+    "rate": 205,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of Stone flooring (Italian Marble) using Cement mortar. Stone to be provided by client.\nPolishing not included. Cx to provide Marble.\nLabour Lifting charges extra. Skirting at same rate per rft.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Polishing of Italian Marble Flooring",
+    "rate": 99,
+    "specification": "",
+    "description": "Polishing Charges (incl Diamond Polish)",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Lifting charges - Stone",
+    "rate": 4593,
+    "specification": "",
+    "description": "Lifting Charges",
+    "unit": "Lumpsum"
+  },
+  {
+    "name": "Installation of wall tile - (1' x 1' to 2' x 2)",
+    "rate": 79,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of wall tile - (1' x 1' to 2' x 2'). Rough plaster to be considered separately. Tiles to be provided by client. Any changes in tile size to be charged extra.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Installation of wall tile - (smaller than 1' x 1' or bigger than 2' x 2)",
+    "rate": 103,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of wall tile - (smaller than 1' x 1' or bigger than 2' x 2'). Rough Plaster to be considered separately. Tiles to be provided by client.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Toilet floor and wall tiling",
+    "rate": 651,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Per Toilet Tile Installation on wall and floor (Toilet floor area 50 sft). Floor shall be made with Epoxy Grout\n- Rough Plaster / PCC considered\n- No water proofing considered",
+    "unit": "Lumpsum"
+  },
+  {
+    "name": "Granite Platform in Kitchen",
+    "rate": 345,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of granite platform with sink cutting, single/double nosing, drip course.\n- Lifting charges extra as per site validation.\n- Base ply not included.",
+    "unit": "Lumpsum"
+  },
+  {
+    "name": "Granite Platform in Utility / Storages / vanity",
+    "rate": 429,
+    "specification": "Cement: Ultratech, Ambuja or Birla",
+    "description": "Installation of granite platform with sink cutting, single nosing, drip course ideal for wash basin counters, ledges etc.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Gypsum Board Ceiling - Standard",
+    "rate": 129,
+    "specification": "Gyprox or equivalent",
+    "description": "Providing and fixing false ceiling with Standard Grade Gypsum board and appropriate GI channels.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Gypsum Ceiling with Electrical- Standard range",
+    "rate": 196,
+    "specification": "Gyprox or equivalent | Local \"A\" grade channel |  Brand: Wire- Havells, Finolex, Polycab. Conduit- BEC, AKG or Polycab",
+    "description": "Gypsum Ceiling with Electrical Package\n- Gypsum Ceiling cove incl\n- Wiring in Ceiling\n- Looping incl\n- No light supply but Light fixing included\n- 1 light per 8 sft of ceiling",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "POP Ceiling",
+    "rate": 151,
+    "specification": "Sakarni or equivalent | Saint Gobain, Lafarge or Indian gypsum  channel",
+    "description": "Providing and laying POP ceiling with appropriate Premium grade GI sections and channels",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "POP Ceiling",
+    "rate": 138,
+    "specification": "Sakarni or equivalent | Local \"A\" grade channel",
+    "description": "Providing and laying POP ceiling with appropriate Premium grade GI sections and channels",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "POP Ceiling with Electrical",
+    "rate": 226,
+    "specification": "Sakarni or equivalent | Local \"A\" grade channel | Brand: Wire- Havells, Finolex, Polycab.\nConduit-BEC, AKG or Polycab",
+    "description": "POP Ceiling with Electrical Package - POP Ceiling - Wiring in Ceiling - Looping incl - No light supply but Light fixing included - 1 light per 8 sft of ceiling Note: Sprinkler shifting is in the client's scope Level: upto\n+150mm .",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Gypsum Cove/POP Cove",
+    "rate": 85,
+    "specification": "Sakarni or equivalent | Local \"A\" grade channel",
+    "description": "Providing and fixing Gypsum/POP Cove in false ceiling with adequate support mechanism. Upto 6\"",
+    "unit": "R ft"
+  },
+  {
+    "name": "Grid Ceiling",
+    "rate": 144,
+    "specification": "Armstrong",
+    "description": "Providing and laying 600x600mm Grid Ceiling in toilets with Moisture resistant board",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Base preparation for Wall paper",
+    "rate": 24,
+    "specification": "Asian Paint",
+    "description": "Providing and applying 2 coats of putty + 1 coat oil based primer on walls with appropriate preparation\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Premium Emulsion - Repainting",
+    "rate": 22,
+    "specification": "Asian Paint",
+    "description": "Providing and applying touchup Putty, and 2 Coats of premium Acrylic Emulsion paint\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Tractor Emulsion - Fresh painting",
+    "rate": 24,
+    "specification": "Asian Paint",
+    "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of Tractor emulsion paint\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Premium Emulsion - Fresh painting",
+    "rate": 28,
+    "specification": "Asian Paint",
+    "description": "Providing and applying 2 coats of Putty, 1 coat\nprimer and 2 Coats of premium Acrylic Emulsion paint. - Scaffolding Charges extra.  Note: More than two colors on a single wall or any kind of pattern will be charged extra. Cost of 3 color\nsamples included.",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Royal Emulsion - Fresh Painting with Acrylic Putty",
+    "rate": 30,
+    "specification": "Asian Paint",
+    "description": "Providing and applying Acrylic Putty, 1 coat primer and 2 Coats of Royal emulsion paint\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Royal Aspira - Fresh Painting",
+    "rate": 34,
+    "specification": "Asian Paint",
+    "description": "Providing and applying 2 coats of acylic Putty, 1 coat primer and 2 Coats of Royal Aspira paint\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Berger Easy Clean Re Painting (1 Pr + 2 Pa)",
+    "rate": 24,
+    "specification": "Berger",
+    "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint.\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Berger Easy Clean Fresh Painting (2 Pu + 1 Pr + 2 Pa)",
+    "rate": 34,
+    "specification": "Berger",
+    "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint.\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Asian Health Shield Re Painting (1 Pr + 2 Pa)",
+    "rate": 30,
+    "specification": "Asian Paint",
+    "description": "Providing and applying 1 coat primer on walls with appropriate preparation\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Asian Health Shield Fresh Painting (2 Pu\n+ 1 Pr + 2 Pa)",
+    "rate": 40,
+    "specification": "Asian Paint",
+    "description": "Providing and applying 2 coats of acylic Putty, 1 coat primer and 2 Coats of Royal Aspira paint\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Berger Easy Breathe (1 Pr + 2 Pa)",
+    "rate": 34,
+    "specification": "Berger",
+    "description": "Providing and applying 1 coat primer on walls with appropriate preparation\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Nerolac Impressions Eco Clean (1 Pr + 2 Pa)",
+    "rate": 28,
+    "specification": "Nerolac",
+    "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint.\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Berger Easy Breathe (2 Pu + 1 Pr + 2 Pa)",
+    "rate": 45,
+    "specification": "Berger",
+    "description": "Providing and applying 1 coat primer on walls with appropriate preparation\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  },
+  {
+    "name": "Nerolac Impressions Eco Clean (2 Pu + 1 Pr + 2 Pa)",
+    "rate": 37,
+    "specification": "Nerolac",
+    "description": "Providing and applying 2 coats of Putty, 1 coat primer and 2 Coats of premium Acrylic Emulsion paint.\n- Scaffolding Charges extra",
+    "unit": "Sq ft"
+  }
+]
 
 
 }
