@@ -497,14 +497,14 @@ const dummyData = {
     "name": "4 inch thick Brick wall",
     "rate": 166,
     "specification": "Bricks: First Class|| Cement- Ultratech, Ambuja or Birla",
-    "description": "Providing and laying 4\" brick masonry with cement mortar as per IS practices.\n- Without plastering.",
+    "description": "Providing and laying 4 inch brick masonry with cement mortar as per IS practices.\n- Without plastering.",
     "unit": "Sqft"
   },
   {
     "name": "9 inch thick Brick wall",
     "rate": 301,
     "specification": "Bricks: First Class|| Cement- Ultratech, Ambuja or Birla",
-    "description": "Providing and laying 9\" brick masonry with cement mortar as per IS practices.\n- Without plastering.",
+    "description": "Providing and laying 9 inch brick masonry with cement mortar as per IS practices.\n- Without plastering.",
     "unit": "Sqft"
   },
   {
@@ -697,7 +697,7 @@ const dummyData = {
     "unit": "Nos"
   },
   {
-    "name": "New 8 Module 5A point",
+   "name": "New 8 Module 5A point",
     "rate": 3031,
     "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
     "description": "Providing New Point - In Walls - 5Amps, 8 Module, upto 5 ft. Note: Switch Socket to be provided by client. For any chiseling on RCC (if required), permission to be provided by client prior to work start. Additional charges for RCC chiseling will be applicable.",
@@ -824,7 +824,7 @@ const dummyData = {
   },
   {
     "name": "Full home Electrical",
-    "rate": 186,
+   "rate": 186,
     "specification": "Brand: Wire- Havells, Finolex, Polycab. Conduit-BEC, AKG or Polycab",
     "description": "Providing and Positioning electrical points as per drawing. cost to be included conduting, wiring, looping with testing & commissioning. (relocation and new point both) for any chiseling in RCC (if required) permission to be provided by client from society prior to work start. Switch/socket/face plate to be provided by the client. switch, socket, db, mcb, to be provided by client. full home fixtures installation (light and fans) cost included except chandelier, geyser, exhaust or any other appliances, fixtures to be provided by the client, only provision (conduting only) for tv cable, cctv, speaker, wiring, internet cable, telephone wiring works for these works xcable to be provided by the client. supply line wiring up to DB to be provided by the client or society.",
     "unit": "Sq ft"
@@ -839,7 +839,7 @@ const dummyData = {
   {
     "name": "PCC-1:4:8 , 50-75 mm",
     "rate": 75,
-    "specification": "Cement: Ultratech, Ambuja or Birla",
+   "specification": "Cement: Ultratech, Ambuja or Birla",
     "description": "PCC 1:4:8 Including neccessary frame work, 50-70 mm thick",
     "unit": "Sq ft"
   },
@@ -1007,7 +1007,7 @@ const dummyData = {
   {
     "name": "Gypsum Ceiling with Electrical- Standard range",
     "rate": 196,
-    "specification": "Gyprox or equivalent | Local \"A\" grade channel |  Brand: Wire- Havells, Finolex, Polycab. Conduit- BEC, AKG or Polycab",
+    "specification": "Gyprox or equivalent | Local A grade channel |  Brand: Wire- Havells, Finolex, Polycab. Conduit- BEC, AKG or Polycab",
     "description": "Gypsum Ceiling with Electrical Package\n- Gypsum Ceiling cove incl\n- Wiring in Ceiling\n- Looping incl\n- No light supply but Light fixing included\n- 1 light per 8 sft of ceiling",
     "unit": "Sq ft"
   },
@@ -1021,22 +1021,22 @@ const dummyData = {
   {
     "name": "POP Ceiling",
     "rate": 138,
-    "specification": "Sakarni or equivalent | Local \"A\" grade channel",
-    "description": "Providing and laying POP ceiling with appropriate Premium grade GI sections and channels",
+    "specification": "Sakarni or equivalent | Local A grade channel",
+   "description": "Providing and laying POP ceiling with appropriate Premium grade GI sections and channels",
     "unit": "Sq ft"
   },
   {
     "name": "POP Ceiling with Electrical",
     "rate": 226,
-    "specification": "Sakarni or equivalent | Local \"A\" grade channel | Brand: Wire- Havells, Finolex, Polycab.\nConduit-BEC, AKG or Polycab",
+    "specification": "Sakarni or equivalent | Local A grade channel | Brand: Wire- Havells, Finolex, Polycab.\nConduit-BEC, AKG or Polycab",
     "description": "POP Ceiling with Electrical Package - POP Ceiling - Wiring in Ceiling - Looping incl - No light supply but Light fixing included - 1 light per 8 sft of ceiling Note: Sprinkler shifting is in the client's scope Level: upto\n+150mm .",
     "unit": "Sq ft"
   },
   {
     "name": "Gypsum Cove/POP Cove",
     "rate": 85,
-    "specification": "Sakarni or equivalent | Local \"A\" grade channel",
-    "description": "Providing and fixing Gypsum/POP Cove in false ceiling with adequate support mechanism. Upto 6\"",
+    "specification": "Sakarni or equivalent | Local A grade channel",
+    "description": "Providing and fixing Gypsum/POP Cove in false ceiling with adequate support mechanism. Upto 6 inch",
     "unit": "R ft"
   },
   {
@@ -1145,7 +1145,6 @@ const dummyData = {
     "unit": "Sq ft"
   }
 ]
-
 
 }
 
